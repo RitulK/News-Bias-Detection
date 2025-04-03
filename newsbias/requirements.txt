@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+newspaper3k
+spacy
+sentence-transformers
+fastapi
+numpy
+scikit-learn
+uvicorn
