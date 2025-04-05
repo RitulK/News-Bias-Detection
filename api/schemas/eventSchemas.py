@@ -13,7 +13,8 @@ def indEvent(event)->dict:
         "cCount": event["cCount"],
         "rCount": event["rCount"],
         "totalArticles": event["totalArticles"],
-        "publishedDate": datetime.utcnow()  # auto timestamp
+        "publishedDate": datetime.utcnow(),  # auto timestamp
+        "centroid_embedding" : event["centroid_embedding"]
     }
 
 def indEventHeadline(event)->dict:

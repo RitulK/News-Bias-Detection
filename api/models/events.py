@@ -12,4 +12,5 @@ class Event(BaseModel):
     cCount: int
     rCount: int
     totalArticles: int
+    centroid_embedding: str
     # publishedDate will be set automatically
