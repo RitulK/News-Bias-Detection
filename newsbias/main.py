@@ -280,6 +280,7 @@ from pymongo import MongoClient
 from bson import ObjectId
 from models.events import Event
 from models.articles import Article
+from pipelineFilteration import result
 
 # Import from config instead of defining here
 from config.database import mainEvents, mainArticles
@@ -304,7 +305,7 @@ class EventClusterer:
     async def process_articles(self):
         """Main method to process articles and update events"""
         # Load current articles from MongoDB
-        current_articles = list(mainArticles.find({"eventID": {"$exists": False}}))
+        current_articles = [article for article in result if not article.get("eventID")]
         
         if not current_articles:
             return {"message": "No new articles to process"}
@@ -320,7 +321,7 @@ class EventClusterer:
             if event_id:
                 await self._assign_article_to_event(article, event_id)
                 assigned_count += 1
-        
+            # bring else here - if an article fails to get allocated to an event, new event will be created, upcoming articles will now be check with this newly created event as well.
         # Cluster remaining articles into new events
         remaining_articles = [a for i, a in enumerate(current_articles) 
                             if not mainArticles.find_one({"_id": a["_id"], "eventID": {"$exists": True}})]
@@ -329,7 +330,8 @@ class EventClusterer:
             remaining_texts = [self._get_article_text(a) for a in remaining_articles]
             remaining_embeddings = self.similarity_model.encode(remaining_texts)
             await self._create_new_events(remaining_articles, remaining_embeddings)
-        
+        # check remaining articles if events can be formed within them
+        # this above is not required as else is now inserted in the for loop above.
         return {
             "total_articles": len(current_articles),
             "assigned_to_existing": assigned_count,
@@ -438,7 +440,7 @@ class EventClusterer:
                         "embedding": embedding.tolist()
                     }}
                 )
-    
+            # here analyze_bias needs to give bias label to the new articles as well.
     def _get_article_text(self, article: Dict) -> str:
         """Extract all text from an article"""
         return f"{article.get('title', '')} {article.get('description', '')} {article.get('content', '')}"

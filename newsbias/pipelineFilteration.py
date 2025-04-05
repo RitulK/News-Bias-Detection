@@ -460,15 +460,18 @@ for source in sources:
         print(f"Error scraping from {source}: {str(e)}")
 
 # Articles are already filtered during scraping
-filtered_items = items
+result = items
 
-articles = json.dumps(filtered_items, indent=4)
-print(articles)
+# articles = json.dumps(filtered_items, indent=4)
+# print(articles)
 
-# # Optionally save to file
-with open("filtered_news_articles.json", "w") as f:
-    f.write(articles)
-print("\nFiltered news articles have been saved to 'filtered_news_articles.json'.")
+# # # Optionally save to file
+# with open("filtered_news_articles.json", "w") as f:
+#     f.write(articles)
+# print("\nFiltered news articles have been saved to 'filtered_news_articles.json'.")
+
+# Store the filtered articles in a variable called 'result'
+# result = filtered_items
 
 #get filteration report 
 print(f"\nTotal articles filtered: {len(filtered_items)}")
