@@ -34,7 +34,7 @@
 
 
 
-
+# this code works good - for clustering news articles into events - part2 of main.py
 from fastapi import FastAPI
 from sentence_transformers import SentenceTransformer
 import json

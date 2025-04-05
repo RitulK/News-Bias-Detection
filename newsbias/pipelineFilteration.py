@@ -22,39 +22,39 @@ sources = {
         "Country" : "India"
     },
 
+    "Hindustan Times National" : {
+        "RSSlink" : "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
+        "Country" : "India"
+    },
+
+    "Hindustan Times World" : {
+        "RSSlink" : "https://www.hindustantimes.com/feeds/rss/world-news/rssfeed.xml",
+        "Country" : "India"
+    },
+
     "The Hindu" : {
         "RSSlink" : "https://www.thehindu.com/news/national/feeder/default.rss",
         "Country" : "India"
     },
-        
-    "The Star Online": {
-        "RSSlink": "https://www.thestar.com.my/rss/News/Nation",
-        "Country": "Malaysia"
-    },
-    
-    "The Sun (Malaysia)": {
-        "RSSlink": "https://thesun.my/rss/local",
-        "Country": "Malaysia"
-    },
-    
-    "Free Malaysia Today": {
-        "RSSlink": "https://www.freemalaysiatoday.com/category/nation/feed/",
-        "Country": "Malaysia"
+
+    "CNN" : {
+        "RSSlink" : "http://rss.cnn.com/rss/cnn_world.rss",
+        "Country" : "USA"
     },
 
-    "The Guardian Nigeria": {
-        "RSSlink": "https://guardian.ng/feed/",
-        "Country": "Nigeria"
+    "Fox News" : {
+        "RSSlink" : "https://moxie.foxnews.com/google-publisher/world.xml",
+        "Country" : "USA"
     },
 
-    "Daily Post (Nigeria)": {
-        "RSSlink": "https://dailypost.ng/feed/",
-        "Country": "Nigeria"
+    "NewYorkTimes" : {
+        "RSSlink" : "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "Country" : "USA"
     },
 
-    "Premium Times": {
-        "RSSlink": "https://www.premiumtimesng.com/feed",
-        "Country": "Nigeria"
+    "Reuters" : {
+        "RSSlink" : "http://feeds.reuters.com/Reuters/worldNews",
+        "Country" : "USA"
     },
 
     "The Straits Times": {

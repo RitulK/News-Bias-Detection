@@ -1,1 +1,7 @@
 /myenv
+/__pycache__
+/bias_api.py
+/similarity.py
+/testing_main.py
+/app.py
+/filtered_news_articles.json
