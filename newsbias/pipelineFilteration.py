@@ -460,7 +460,7 @@ for source in sources:
         print(f"Error scraping from {source}: {str(e)}")
 
 # Articles are already filtered during scraping
-result = items
+results = items
 
 # articles = json.dumps(filtered_items, indent=4)
 # print(articles)

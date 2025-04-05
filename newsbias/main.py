@@ -280,7 +280,7 @@ from pymongo import MongoClient
 from bson import ObjectId
 from models.events import Event
 from models.articles import Article
-from pipelineFilteration import result
+from pipelineFilteration import results
 
 # Import from config instead of defining here
 from config.database import mainEvents, mainArticles
@@ -305,7 +305,7 @@ class EventClusterer:
     async def process_articles(self):
         """Main method to process articles and update events"""
         # Load current articles from MongoDB
-        current_articles = [article for article in result if not article.get("eventID")]
+        current_articles = [article for article in results if not article.get("eventID")]
         
         if not current_articles:
             return {"message": "No new articles to process"}
@@ -417,7 +417,7 @@ class EventClusterer:
                     bias_dist[bias_label.lower()] += 1
             
             # Insert new event
-            event_data = {
+            event_data = { 
                 "name": event_name,
                 "description": f"Automatically generated event about {event_name}",
                 "createdAt": datetime.utcnow(),
