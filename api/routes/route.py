@@ -30,8 +30,8 @@ async def update_event(id: str, event: Event):
 #GET All Event Headlines
 @router.get("/eventembeddings")
 async def get_eventEmbeddings():
-    events = mainEvents.find({}, {"_id": 1, "embedding": 1})
-    return [{"id": str(event["_id"]), "embedding": event["embedding"]} for event in events]
+    events = mainEvents.find({}, {"_id": 1, "centroid_embedding": 1})
+    return [{"_id": str(event["_id"]), "centroid_embedding": event["centroid_embedding"]} for event in events]
 
 #GET an EventData
 @router.get("/eventdata/{id}")
