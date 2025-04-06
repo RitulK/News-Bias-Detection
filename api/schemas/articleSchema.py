@@ -13,6 +13,7 @@ def indArticle(article)-> dict:
         "link": article["link"],
         "timestamp": article["timestamp"],
         "location": article["location"],
+        "embedding": article["embedding"],
     }
 
 def listArticles(articles)-> list:

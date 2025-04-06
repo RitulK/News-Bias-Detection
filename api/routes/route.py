@@ -18,6 +18,21 @@ async def get_event(id: str):
 async def get_eventData():
     return listEventHeadlines(mainEvents.find())
 
+#UPDATE an Event
+@router.put("/event/{id}")
+async def update_event(id: str, event: Event):
+    mainEvents.update_one(
+        {"_id": ObjectId(id)}, 
+        {"$set": dict(event)}
+    )
+    return {"message": f"Event with ID {id} updated successfully"}
+
+#GET All Event Headlines
+@router.get("/eventembeddings")
+async def get_eventEmbeddings():
+    events = mainEvents.find({}, {"_id": 1, "embedding": 1})
+    return [{"id": str(event["_id"]), "embedding": event["embedding"]} for event in events]
+
 #GET an EventData
 @router.get("/eventdata/{id}")
 async def get_eventData(id: str):

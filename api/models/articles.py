@@ -15,4 +15,4 @@ class Article(BaseModel):
     link: str
     timestamp: str
     location: str
-    
+    embedding: str

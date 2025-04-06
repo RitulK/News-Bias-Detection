@@ -22,15 +22,15 @@ sources = {
         "Country" : "India"
     },
 
-    "Hindustan Times National" : {
-        "RSSlink" : "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
-        "Country" : "India"
-    },
+    # "Hindustan Times National" : {
+    #     "RSSlink" : "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml",
+    #     "Country" : "India"
+    # },
 
-    "Hindustan Times World" : {
-        "RSSlink" : "https://www.hindustantimes.com/feeds/rss/world-news/rssfeed.xml",
-        "Country" : "India"
-    },
+    # "Hindustan Times World" : {
+    #     "RSSlink" : "https://www.hindustantimes.com/feeds/rss/world-news/rssfeed.xml",
+    #     "Country" : "India"
+    # },
 
     "The Hindu" : {
         "RSSlink" : "https://www.thehindu.com/news/national/feeder/default.rss",
@@ -57,35 +57,35 @@ sources = {
         "Country" : "USA"
     },
 
-    "The Straits Times": {
-        "RSSlink": "https://www.straitstimes.com/news/singapore/rss.xml",
-        "Country": "Singapore"
-    },
+    # "The Straits Times": {
+    #     "RSSlink": "https://www.straitstimes.com/news/singapore/rss.xml",
+    #     "Country": "Singapore"
+    # },
 
-    "Channel NewsAsia": {
-        "RSSlink": "https://www.channelnewsasia.com/rssfeeds/8395986",
-        "Country": "Singapore"
-    },
+    # "Channel NewsAsia": {
+    #     "RSSlink": "https://www.channelnewsasia.com/rssfeeds/8395986",
+    #     "Country": "Singapore"
+    # },
 
-    "Business Times": {
-        "RSSlink": "https://www.businesstimes.com.sg/rss/singapore",
-        "Country": "Singapore"
-    },
+    # "Business Times": {
+    #     "RSSlink": "https://www.businesstimes.com.sg/rss/singapore",
+    #     "Country": "Singapore"
+    # },
 
-    "CBC News": {
-        "RSSlink": "https://www.cbc.ca/webfeed/rss/rss-world",
-        "Country": "Canada"
-    },
+    # "CBC News": {
+    #     "RSSlink": "https://www.cbc.ca/webfeed/rss/rss-world",
+    #     "Country": "Canada"
+    # },
 
-    "Toronto Star": {
-        "RSSlink": "https://www.thestar.com/search/?f=rss&t=article&c=news/canada*&l=50&s=start_time&sd=desc",
-        "Country": "Canada"
-    },
+    # "Toronto Star": {
+    #     "RSSlink": "https://www.thestar.com/search/?f=rss&t=article&c=news/canada*&l=50&s=start_time&sd=desc",
+    #     "Country": "Canada"
+    # },
 
-    "Global News (Canada)": {
-        "RSSlink": "https://globalnews.ca/feed/",
-        "Country": "Canada"
-    }
+    # "Global News (Canada)": {
+    #     "RSSlink": "https://globalnews.ca/feed/",
+    #     "Country": "Canada"
+    # }
 }
 
 # Comprehensive keywords for each news type
@@ -474,14 +474,14 @@ result = items
 # result = filtered_items
 
 #get filteration report 
-print(f"\nTotal articles filtered: {len(filtered_items)}")
-print("News types distribution:")
-type_counts = {}
-for item in filtered_items:
-    news_type = item["news_type"]
-    type_counts[news_type] = type_counts.get(news_type, 0) + 1
-for news_type, count in sorted(type_counts.items()):
-    print(f"- {news_type}: {count}")
+#print(f"\nTotal articles filtered: {len(filtered_items)}")
+# print("News types distribution:")
+# type_counts = {}
+# for item in filtered_items:
+#     news_type = item["news_type"]
+#     type_counts[news_type] = type_counts.get(news_type, 0) + 1
+# for news_type, count in sorted(type_counts.items()):
+#     print(f"- {news_type}: {count}")
 
 # print("\nCountries mentioned distribution:")
 # country_counts = {}
