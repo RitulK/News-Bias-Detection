@@ -29,7 +29,7 @@ class EventClusterer:
     async def process_articles(self):
         """Main method to process articles and update events"""
         # Load current articles from MongoDB
-        current_articles = [article for article in result if not article.get("eventID")]
+        current_articles = [article for article in results if not article.get("eventID")]
         
         if not current_articles:
             return {"message": "No new articles to process"}
