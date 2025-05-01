@@ -6,11 +6,13 @@ export default async function Home({ params }: { params: { eventID: string } }) 
       const resolvedParams = await params;
       const eventID = resolvedParams.eventID;
       console.log("Event ID:", eventID); // Log the event ID to verify it's being passed correctly
-      const eventDataResponse = await fetch(`http://localhost:8000/event/${eventID}`);
+      const eventDataResponse = await fetch(`http://localhost:8000/eventdata/${eventID}`);
       const eventData = await eventDataResponse.json();
       console.log("Event Data:", eventData); // Log the event data to verify it's being fetched correctly
       // Now you can access eventData properties
       const event = eventData;
+
+      
       // const event = {
       //   "publishedDate": "1 day ago",
       //   "location": "Singapore",
@@ -21,41 +23,43 @@ export default async function Home({ params }: { params: { eventID: string } }) 
       //   "rightSummary": "This section presents an alternative viewpoint or additional context that might not be covered in other perspectives."
       // }
       
-      const articles = [
-        {
-          id: 1,
-          source: "Jerusalem Post",
-          sourceLogo: "/logos/jerusalem_post.png",
-          title: "Singapore detains two teens, mosque shootings, ISIS ties",
-          summary: "Singapore detained two teenagers under internal security laws for extremist activities...",
-          timestamp: "4 hours ago",
-          location: "Jerusalem, Israel",
-          alignment: "Left", // ✅ Now correctly typed
-          link: "https://example.com/article1",
-        },
-        {
-          id: 2,
-          source: "The Express Tribune",
-          sourceLogo: "/logos/express_tribune.png",
-          title: "Singapore arrests two teenagers under security law for extremist plans",
-          summary: "Singapore has detained two teenagers under its Internal Security Act (ISA)...",
-          timestamp: "22 hours ago",
-          location: "Pakistan",
-          alignment: "Center", // ✅ Now correctly typed
-          link: "https://example.com/article2",
-        },
-        {
-          id: 3,
-          source: "phelpscountyfocus.com",
-          sourceLogo: "/logos/phelpscounty.png",
-          title: "Singapore detains teenage boy allegedly planning to kill Muslims",
-          summary: "A Singaporean teenager allegedly planning to kill dozens of Muslims...",
-          timestamp: "1 day ago",
-          location: "Singapore",
-          alignment: "Right", // ✅ Now correctly typed
-          link: "https://example.com/article3",
-        }
-      ];
+      const articles = eventData['articles'];
+
+      // const articles = [
+      //   {
+      //     id: 1,
+      //     # source: "Jerusalem Post",
+      //     sourceLogo: "/logos/jerusalem_post.png",
+      //     # title: "Singapore detains two teens, mosque shootings, ISIS ties",
+      //     summary: "Singapore detained two teenagers under internal security laws for extremist activities...",
+      //     # timestamp: "4 hours ago",
+      //     # location: "Jerusalem, Israel",
+      //     # alignment: "Left", // ✅ Now correctly typed
+      //     # link: "https://example.com/article1",
+      //   },
+      //   {
+      //     id: 2,
+      //     source: "The Express Tribune",
+      //     sourceLogo: "/logos/express_tribune.png",
+      //     title: "Singapore arrests two teenagers under security law for extremist plans",
+      //     summary: "Singapore has detained two teenagers under its Internal Security Act (ISA)...",
+      //     timestamp: "22 hours ago",
+      //     location: "Pakistan",
+      //     alignment: "Center", // ✅ Now correctly typed
+      //     link: "https://example.com/article2",
+      //   },
+      //   {
+      //     id: 3,
+      //     source: "phelpscountyfocus.com",
+      //     sourceLogo: "/logos/phelpscounty.png",
+      //     title: "Singapore detains teenage boy allegedly planning to kill Muslims",
+      //     summary: "A Singaporean teenager allegedly planning to kill dozens of Muslims...",
+      //     timestamp: "1 day ago",
+      //     location: "Singapore",
+      //     alignment: "Right", // ✅ Now correctly typed
+      //     link: "https://example.com/article3",
+      //   }
+      // ];
 
     return (
       <div className="min-h-screen relative overflow-hidden">

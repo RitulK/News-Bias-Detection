@@ -40,10 +40,7 @@ async def get_eventEmbeddings():
 async def get_eventData(id: str):
     eventData = indEvent(mainEvents.find_one({"_id": ObjectId(id)}))
     articles = listArticles(mainArticles.find({"eventID": id}))
-    return {
-        "eventData" : eventData,
-        "eventArticles" : articles
-    }
+    return eventData
 
 #POST an Event
 @router.post("/event")
