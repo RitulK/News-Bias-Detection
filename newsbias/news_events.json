@@ -1,18 +1,9 @@
 [
     {
+        "_id": {
+            "$oid": "681315be0f4ff4c447173282"
+        },
         "event_id": "event_1_20250501063334",
-        "eventHeadline": "Aiden needs immediate help",
-        "summary": "The situation involves Aiden needing assistance or support, with Vera's complex or difficult nature being a contributing factor. It is unclear what kind of support Aiden needs or the specific challenges Vera presents.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Aiden requires assistance, suggesting a need for support or intervention in an unspecified situation. The exact nature of Aiden's needs and the type of aid required are not detailed in the headlines, but there is an implied call for action to help him.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 2,
-        "rCount": 0,
-        "totalArticles": 2,
-        "createdAt": "2025-05-01T06:33:34.253988+00:00",
-        "updatedAt": "2025-05-01T06:33:34.254980+00:00",
         "articles": [
             {
                 "title": "Aiden needs abetting",
@@ -38,22 +29,25 @@
                 "alignment": "center",
                 "event_id": "event_1_20250501063334"
             }
-        ]
+        ],
+        "cCount": 2,
+        "centerSummary": "[Summary]: Aiden requires assistance or support. The headlines suggest a need for someone to help or encourage Aiden in some endeavor, but further context is needed to understand the specific nature of the assistance required.\n\n[Reasoning]: The summary is center-leaning because it doesn't imply any particular political leaning. It focuses solely on the core statement: that Aiden needs help. It avoids framing the situation with any potentially biased language or assumptions about the reasons for his need for assistance.",
+        "createdAt": "2025-05-01T06:33:34.253988+00:00",
+        "eventHeadline": "Aiden needs immediate help",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The situation involves Aiden needing assistance or support, with Vera's complex or difficult nature being a contributing factor. It is unclear what kind of support Aiden needs or the specific challenges Vera presents.",
+        "totalArticles": 2,
+        "updatedAt": "2025-05-01T06:33:34.254980+00:00"
     },
     {
+        "_id": {
+            "$oid": "681315c00f4ff4c447173285"
+        },
         "event_id": "event_2_20250501063336",
-        "eventHeadline": "Victoria Seats: Tensions Rise",
-        "summary": "The Australian federal election campaign in Victoria is heating up, particularly in the Kooyong electorate.  Liberal Party figures Peter Dutton and Josh Frydenberg are actively campaigning, with Dutton visiting a pub critical of incumbent Monique Ryan and Frydenberg condemning an antisemitic act at an event. The Liberal Party is also considering legal action against the Boroondara council.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Opposition Leader Peter Dutton campaigned in Victoria, visiting a pub known for opposing independent MP Monique Ryan. Meanwhile, former Treasurer Josh Frydenberg denounced an antisemitic incident that occurred during an event he attended with David Hamer.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 2,
-        "rCount": 0,
-        "totalArticles": 2,
-        "createdAt": "2025-05-01T06:33:36.534339+00:00",
-        "updatedAt": "2025-05-01T06:33:36.534339+00:00",
         "articles": [
             {
                 "title": "Victoria\u2019s hot seats LIVE updates: Peter Dutton visits anti-Monique Ryan pub; Frydenberg condemns antisemitic stunt at appearance with Hamer",
@@ -79,22 +73,25 @@
                 "alignment": "center",
                 "event_id": "event_2_20250501063336"
             }
-        ]
+        ],
+        "cCount": 2,
+        "centerSummary": "[Summary]: Amidst the Victorian election cycle, Peter Dutton visited a pub known for its opposition to incumbent MP Monique Ryan, while Josh Frydenberg denounced an antisemitic act that occurred during an appearance with David Hamer. These events highlight the diverse range of issues and political tensions present in the current Victorian political landscape.\n\n[Reasoning]: The summary is center-leaning because it neutrally reports the actions of both Peter Dutton and the condemnation of antisemitism without taking a firm position. It uses factual and objective language, simply stating the events as they are reported in the headlines.",
+        "createdAt": "2025-05-01T06:33:36.534339+00:00",
+        "eventHeadline": "Victoria Seats: Tensions Rise",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The Australian federal election campaign in Victoria is heating up, particularly in the Kooyong electorate.  Liberal Party figures Peter Dutton and Josh Frydenberg are actively campaigning, with Dutton visiting a pub critical of incumbent Monique Ryan and Frydenberg condemning an antisemitic act at an event. The Liberal Party is also considering legal action against the Boroondara council.",
+        "totalArticles": 2,
+        "updatedAt": "2025-05-01T06:33:36.534339+00:00"
     },
     {
+        "_id": {
+            "$oid": "681315c20f4ff4c447173288"
+        },
         "event_id": "event_3_20250501063338",
-        "eventHeadline": "Mam's Broncos Return Date?",
-        "summary": "Brisbane Broncos player Ezra Mam's return to the team is being discussed, with former player Darren Lockyer involved in the conversation. The timing of Mam's comeback is the central topic of discussion.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Without more context, it's difficult to provide a truly informative summary. However, based on the repeated headline, the central question is the timeline for Mam's return to the Denver Broncos. The article likely explores the factors influencing the return, such as injury recovery, performance, or other team-related circumstances.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 2,
-        "rCount": 0,
-        "totalArticles": 2,
-        "createdAt": "2025-05-01T06:33:38.368499+00:00",
-        "updatedAt": "2025-05-01T06:33:38.368499+00:00",
         "articles": [
             {
                 "title": "When will Mam return to the Broncos?",
@@ -120,22 +117,25 @@
                 "alignment": "center",
                 "event_id": "event_3_20250501063338"
             }
-        ]
+        ],
+        "cCount": 2,
+        "centerSummary": "[Summary]: The Denver Broncos' player Mam is currently absent from the team, and there is uncertainty regarding the timeframe for his return. News outlets are reporting on the situation and the questions surrounding his potential comeback.\n\n[Reasoning]: This summary is center-leaning because it presents a factual account of the situation without expressing any opinion or taking a particular side. It simply highlights the news focus on Mam's absence and the unknown return date, avoiding any language that could suggest bias or speculation.",
+        "createdAt": "2025-05-01T06:33:38.368499+00:00",
+        "eventHeadline": "Mam's Broncos Return Date?",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Brisbane Broncos player Ezra Mam's return to the team is being discussed, with former player Darren Lockyer involved in the conversation. The timing of Mam's comeback is the central topic of discussion.",
+        "totalArticles": 2,
+        "updatedAt": "2025-05-01T06:33:38.368499+00:00"
     },
     {
+        "_id": {
+            "$oid": "681315c50f4ff4c44717328b"
+        },
         "event_id": "event_4_20250501063341",
-        "eventHeadline": "Amsterdam's Vision Powers Australia",
-        "summary": "The article discusses how Amsterdam's urban planning strategies could be adopted in Australian cities to promote green initiatives and citizen-centered development. It suggests that Australia could benefit from implementing similar approaches to create more sustainable and livable urban environments.",
-        "location": "Unknown",
-        "leftSummary": "Amsterdam's success in renewable energy and sustainable urban planning offers a promising model for Australia to transition away from fossil fuels and build a more equitable, green future. By embracing Amsterdam's vision, Australia can prioritize public good and environmental responsibility over corporate profits in its energy policy.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 1,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:33:41.389798+00:00",
-        "updatedAt": "2025-05-01T06:33:41.389798+00:00",
         "articles": [
             {
                 "title": " Bridging continents: How Amsterdam&#039;s vision can power Australia\u2019s future",
@@ -149,22 +149,25 @@
                 "alignment": "left",
                 "event_id": "event_4_20250501063341"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:33:41.389798+00:00",
+        "eventHeadline": "Amsterdam's Vision Powers Australia",
+        "lCount": 1,
+        "leftSummary": "[Summary]: Amsterdam's progressive city planning model, which prioritizes sustainability and equitable resource allocation, is being lauded as a potential blueprint for Australia's future. This represents an opportunity for Australia to break from traditional, profit-driven development and embrace a more socially responsible and environmentally conscious path forward.\n\n[Reasoning]: This summary is left-leaning because it highlights \"sustainability\" and \"equitable resource allocation,\" values typically associated with progressive politics. It also frames Amsterdam's approach as a break from \"profit-driven development,\" suggesting a critique of capitalism, a common stance on the left.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The article discusses how Amsterdam's urban planning strategies could be adopted in Australian cities to promote green initiatives and citizen-centered development. It suggests that Australia could benefit from implementing similar approaches to create more sustainable and livable urban environments.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:33:41.389798+00:00"
     },
     {
+        "_id": {
+            "$oid": "681315c70f4ff4c44717328d"
+        },
         "event_id": "event_5_20250501063343",
-        "eventHeadline": "Pope: Africa's Catholic Future",
-        "summary": "Pope Francis has focused significant attention on Africa, where the Catholic Church is experiencing its most rapid growth globally. This engagement highlights both the challenges and opportunities presented by the continent's expanding Catholic population.",
-        "location": "Unknown",
-        "leftSummary": "Pope Francis's recent trip to Africa acknowledged the continent's growing Catholic population and its unique challenges. He seemed to embrace the Church's need to adapt to African contexts while subtly challenging conservative stances on social issues prevalent within the region.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 1,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:33:43.122923+00:00",
-        "updatedAt": "2025-05-01T06:33:43.122923+00:00",
         "articles": [
             {
                 "title": "How Francis Challenged and Embraced Africa\u2019s Rising Catholic Population",
@@ -178,22 +181,25 @@
                 "alignment": "left",
                 "event_id": "event_5_20250501063343"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:33:43.122923+00:00",
+        "eventHeadline": "Pope: Africa's Catholic Future",
+        "lCount": 1,
+        "leftSummary": "**[Summary]:** Pope Francis's recent visit to Africa acknowledged the growing importance of the continent's Catholic population. He also challenged existing power structures that often marginalize and exploit African communities.\n\n**[Reasoning]:** This summary is left-leaning because it highlights the \"challenged\" aspect, implying criticism of existing inequalities and systems of power, a common theme in left-leaning political discourse. The reference to \"marginalize and exploit African communities\" further underscores this perspective by focusing on issues of social justice and economic disparity.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Pope Francis has focused significant attention on Africa, where the Catholic Church is experiencing its most rapid growth globally. This engagement highlights both the challenges and opportunities presented by the continent's expanding Catholic population.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:33:43.122923+00:00"
     },
     {
+        "_id": {
+            "$oid": "681315c90f4ff4c44717328f"
+        },
         "event_id": "event_6_20250501063344",
-        "eventHeadline": "Gus backs Des Titans.",
-        "summary": "Phil Gould has expressed confidence in Des Hasler's ability to address the issues facing the Gold Coast Titans. Gould shared his reasoning for why he believes Hasler will remain the team's head coach, despite their current challenges.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Gus Gould has endorsed Des Hasler as the right person to address the current issues facing the Tennessee Titans. This support suggests confidence in Hasler's ability to improve the team's performance and resolve existing challenges.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 2,
-        "rCount": 0,
-        "totalArticles": 2,
-        "createdAt": "2025-05-01T06:33:44.968063+00:00",
-        "updatedAt": "2025-05-01T06:33:44.968063+00:00",
         "articles": [
             {
                 "title": "Gus backs Des to fix the Titans' problems",
@@ -219,22 +225,25 @@
                 "alignment": "center",
                 "event_id": "event_6_20250501063344"
             }
-        ]
+        ],
+        "cCount": 2,
+        "centerSummary": "**[Summary]:** Phil Gould (\"Gus\") has expressed his support for Des Hasler to address and resolve the current issues facing the Tennessee Titans. This endorsement suggests confidence in Hasler's ability to improve the team's performance.\n\n**[Reasoning]:** The summary is center-leaning because it presents a neutral overview of the event without expressing strong opinions or taking sides. The language focuses on the key figures and their actions (\"Gus backs Des,\" \"fix the Titans' problems\") and presents the situation as a matter of professional evaluation and potential improvement, avoiding sensationalism or bias.",
+        "createdAt": "2025-05-01T06:33:44.968063+00:00",
+        "eventHeadline": "Gus backs Des Titans.",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Phil Gould has expressed confidence in Des Hasler's ability to address the issues facing the Gold Coast Titans. Gould shared his reasoning for why he believes Hasler will remain the team's head coach, despite their current challenges.",
+        "totalArticles": 2,
+        "updatedAt": "2025-05-01T06:33:44.968063+00:00"
     },
     {
+        "_id": {
+            "$oid": "681315f80f4ff4c447173292"
+        },
         "event_id": "event_7_20250501063432",
-        "eventHeadline": "Farage: MAGA Comes to UK",
-        "summary": "Nigel Farage, a prominent right-wing figure, is holding rallies across England reminiscent of Trump's MAGA events. The aim is to capitalize on his party's recent rise in polls and gain ground in the upcoming local elections.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Nigel Farage is adopting tactics reminiscent of MAGA rallies in the US, aiming to energize his UK political base and capitalize on populist sentiments. This strategy suggests an effort to import American-style political engagement and potentially influence the upcoming UK elections.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:34:32.468222+00:00",
-        "updatedAt": "2025-05-01T06:34:32.468222+00:00",
         "articles": [
             {
                 "title": "Why Nigel Farage Is Bringing MAGA-Style Rallies to the UK",
@@ -248,22 +257,25 @@
                 "alignment": "center",
                 "event_id": "event_7_20250501063432"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Nigel Farage, a prominent figure in Brexit, is adopting tactics similar to those used by MAGA rallies in the United States as he engages in UK politics. This move suggests an attempt to mobilize and energize his base through strategies reminiscent of the American right-wing movement.\n\n[Reasoning]: The summary is center-leaning because it neutrally describes Farage's actions by stating facts, avoiding explicitly positive or negative language towards either Farage or the \"MAGA-style rallies.\" The summary refrains from labeling the rallies as \"good\" or \"bad,\" simply noting the similarity in tactics.",
+        "createdAt": "2025-05-01T06:34:32.468222+00:00",
+        "eventHeadline": "Farage: MAGA Comes to UK",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Nigel Farage, a prominent right-wing figure, is holding rallies across England reminiscent of Trump's MAGA events. The aim is to capitalize on his party's recent rise in polls and gain ground in the upcoming local elections.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:34:32.468222+00:00"
     },
     {
+        "_id": {
+            "$oid": "681315fe0f4ff4c447173294"
+        },
         "event_id": "event_8_20250501063437",
-        "eventHeadline": "Labor win: Good economics?",
-        "summary": "Independent Australia is publishing a series of articles focusing on economic facts related to the election. This installment, titled \"AUSVOTES ECONOMIC FACTS #14: Labor victory a good investment,\" aims to challenge common misconceptions and distortions surrounding the economy.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "A Labor victory in Australia is projected to bring positive economic outcomes due to strategic investments. While specific details vary, the overall analysis suggests the change in government will likely be beneficial for the Australian economy in the long term.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:34:37.732028+00:00",
-        "updatedAt": "2025-05-01T06:34:37.732028+00:00",
         "articles": [
             {
                 "title": " AUSVOTES ECONOMIC FACTS #14: Labor victory a good investment",
@@ -277,22 +289,25 @@
                 "alignment": "center",
                 "event_id": "event_8_20250501063437"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** Following a Labor victory, there's an argument that it could prove to be a beneficial economic move. The claim is made that investing in the Labor government will provide financial returns.\n\n**[Reasoning]:** The summary adopts a neutral tone by presenting the \"good investment\" claim as an argument instead of an established fact. This reflects a center-leaning perspective by acknowledging the potential benefits of the Labor victory without outright endorsing it.",
+        "createdAt": "2025-05-01T06:34:37.732028+00:00",
+        "eventHeadline": "Labor win: Good economics?",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Independent Australia is publishing a series of articles focusing on economic facts related to the election. This installment, titled \"AUSVOTES ECONOMIC FACTS #14: Labor victory a good investment,\" aims to challenge common misconceptions and distortions surrounding the economy.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:34:37.732028+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316000f4ff4c447173296"
+        },
         "event_id": "event_9_20250501063439",
-        "eventHeadline": "Pakistan: Afghan Refugees Deported",
-        "summary": "Pakistan is deporting thousands of undocumented Afghan refugees, despite some having Pakistani spouses and long-term residency. This action is causing family separations as the Pakistani government enforces its policy requiring these migrants to leave the country.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Pakistan's recent deportation of thousands of Afghan refugees, driven by concerns over security and economic strain, is creating a humanitarian crisis as families are being separated. While Pakistan cites legitimate reasons for the deportations, the international community is raising concerns about the potential for human rights abuses and the destabilizing impact on Afghanistan.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:34:39.695102+00:00",
-        "updatedAt": "2025-05-01T06:34:39.695102+00:00",
         "articles": [
             {
                 "title": "Families Are Split as Pakistan Deports Thousands of Afghan Refugees",
@@ -306,22 +321,25 @@
                 "alignment": "center",
                 "event_id": "event_9_20250501063439"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** Pakistan is deporting thousands of Afghan refugees, leading to the separation of families. This action is creating a complex humanitarian situation as people are being forced to return to Afghanistan.\n\n**[Reasoning]:** This summary is center-leaning because it acknowledges the facts of the situation - that deportations are occurring and families are being impacted - without explicitly assigning blame or taking a strong stance for or against the policy. The phrase \"complex humanitarian situation\" is a common way to acknowledge the difficult nature of such events from a neutral perspective.",
+        "createdAt": "2025-05-01T06:34:39.695102+00:00",
+        "eventHeadline": "Pakistan: Afghan Refugees Deported",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Pakistan is deporting thousands of undocumented Afghan refugees, despite some having Pakistani spouses and long-term residency. This action is causing family separations as the Pakistani government enforces its policy requiring these migrants to leave the country.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:34:39.695102+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316020f4ff4c447173298"
+        },
         "event_id": "event_10_20250501063442",
-        "eventHeadline": "Banks: Earnings Calm Markets",
-        "summary": "Following recent instability in the banking sector, financial markets are closely analyzing the latest earnings reports from banks. Investors are using these reports to assess the overall health and stability of the banking industry and anticipate potential future market trends.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Recent bank earnings are being scrutinized by the markets as they try to assess the overall health and stability of the financial sector following recent banking sector instability. Investors are carefully evaluating the results to determine if the sector has stabilized or if further volatility is expected.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:34:42.004778+00:00",
-        "updatedAt": "2025-05-01T06:34:42.004778+00:00",
         "articles": [
             {
                 "title": "Markets digest bank earnings after recent turmoil",
@@ -335,22 +353,25 @@
                 "alignment": "center",
                 "event_id": "event_10_20250501063442"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Financial markets are currently evaluating the latest bank earnings reports following a period of instability in the banking sector. Investors are likely analyzing these results to gauge the overall health and stability of financial institutions and to inform future investment decisions.\n\n[Reasoning]: This summary is center-leaning because it uses neutral language like \"digest\" and \"turmoil\" without assigning blame or framing the situation as a crisis. It acknowledges the recent volatility while focusing on the market's objective analysis of the earnings reports.",
+        "createdAt": "2025-05-01T06:34:42.004778+00:00",
+        "eventHeadline": "Banks: Earnings Calm Markets",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Following recent instability in the banking sector, financial markets are closely analyzing the latest earnings reports from banks. Investors are using these reports to assess the overall health and stability of the banking industry and anticipate potential future market trends.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:34:42.004778+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316040f4ff4c44717329a"
+        },
         "event_id": "event_11_20250501063443",
-        "eventHeadline": "Vietnam: Thriving, Moving Forward",
-        "summary": "Vietnam is currently focused on rebranding itself internationally, emphasizing its strengths and moving beyond its historical association with war. The country aims to be recognized for its current achievements and potential rather than its past conflicts.",
-        "location": "Unknown",
-        "leftSummary": "Vietnam's economic progress showcases the potential for former war-torn nations to rebuild and thrive, offering a hopeful narrative of resilience and development often ignored by Western media focused on conflict. This growth underscores the importance of international cooperation and investment in fostering sustainable progress in post-conflict societies.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 1,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:34:43.734836+00:00",
-        "updatedAt": "2025-05-01T06:34:43.734836+00:00",
         "articles": [
             {
                 "title": "Out of War\u2019s Shadow: Vietnam on the Move",
@@ -364,22 +385,25 @@
                 "alignment": "left",
                 "event_id": "event_11_20250501063443"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:34:43.734836+00:00",
+        "eventHeadline": "Vietnam: Thriving, Moving Forward",
+        "lCount": 1,
+        "leftSummary": "[Summary]: Vietnam is making significant progress in its development, moving beyond the legacy of war and demonstrating the potential for growth and prosperity despite past conflicts. This progress highlights the resilience of the Vietnamese people and the possibility of overcoming even the most devastating consequences of imperialism and foreign intervention.\n\n[Reasoning]: The summary is left-leaning because it emphasizes the impact of \"imperialism and foreign intervention,\" framing the war as a result of external forces rather than solely an internal conflict. This perspective aligns with a left-leaning critique of historical power dynamics and their consequences for developing nations.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Vietnam is currently focused on rebranding itself internationally, emphasizing its strengths and moving beyond its historical association with war. The country aims to be recognized for its current achievements and potential rather than its past conflicts.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:34:43.734836+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316060f4ff4c44717329c"
+        },
         "event_id": "event_12_20250501063445",
-        "eventHeadline": "May's Hot New Places",
-        "summary": "A new list highlights noteworthy dining and drinking establishments in Sydney for the month of May. The recommendations include both newly opened spots and recently reviewed restaurants, featuring diverse options like tacos and a revamped family-run restaurant.",
-        "location": "Unknown",
-        "leftSummary": "This article likely highlights trendy and expensive new restaurants, further catering to an elite class while ignoring the struggles of working-class families facing rising food costs and limited access to quality dining options. It promotes consumerism and prioritizes luxury experiences over addressing systemic inequalities in the food industry.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 2,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 2,
-        "createdAt": "2025-05-01T06:34:45.721602+00:00",
-        "updatedAt": "2025-05-01T06:34:45.721602+00:00",
         "articles": [
             {
                 "title": "Your May hit list: The hot, new and just-reviewed places to check out this month",
@@ -405,22 +429,25 @@
                 "alignment": "left",
                 "event_id": "event_12_20250501063445"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:34:45.721602+00:00",
+        "eventHeadline": "May's Hot New Places",
+        "lCount": 2,
+        "leftSummary": "[Summary]: The headlines focus on new and \"hot\" places to spend money, likely catering to wealthier demographics while ignoring the struggles of everyday people facing economic hardship. This reinforces a consumerist culture that prioritizes fleeting trends over addressing systemic inequalities.\n[Reasoning]: The left-leaning perspective is reflected in the critique of consumerism and the implication that these highlighted businesses primarily benefit the wealthy. This implicitly points to a concern for economic inequality and the impact of prioritizing luxury over social justice issues.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "A new list highlights noteworthy dining and drinking establishments in Sydney for the month of May. The recommendations include both newly opened spots and recently reviewed restaurants, featuring diverse options like tacos and a revamped family-run restaurant.",
+        "totalArticles": 2,
+        "updatedAt": "2025-05-01T06:34:45.721602+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316340f4ff4c44717329f"
+        },
         "event_id": "event_13_20250501063532",
-        "eventHeadline": "Mumbai gets new Police Chief",
-        "summary": "Deven Bharti has been appointed as the new Mumbai Police Commissioner, succeeding Vivek Phansalkar who is retiring after 35 years of service. Bharti, known for leading the 26/11 attacks investigation, will assume his new role later today.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Deven Bharti, a seasoned officer known for leading the 26/11 Mumbai attacks investigation, has been appointed as the new Mumbai Police Commissioner, replacing Vivek Phansalkar. This change signals a potential shift in leadership within the Mumbai Police force, bringing in an experienced figure to oversee law enforcement operations.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:35:32.398389+00:00",
-        "updatedAt": "2025-05-01T06:35:32.398389+00:00",
         "articles": [
             {
                 "title": "Meet new Mumbai Police Commissioner Deven Bharti, super cop who led 26/11 attacks investigation, he has replaced Vivek Phansalkar",
@@ -434,22 +461,25 @@
                 "alignment": "center",
                 "event_id": "event_13_20250501063532"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Deven Bharti has been appointed as the new Mumbai Police Commissioner, replacing Vivek Phansalkar. Bharti, a seasoned officer, is known for his experience leading the investigation into the 26/11 Mumbai terror attacks.\n\n[Reasoning]: This summary is center-leaning because it presents the information in a factual, neutral manner. It highlights Bharti's experience without editorializing on his suitability for the role or questioning the change in leadership, simply stating the facts. The emphasis on his experience leading the 26/11 investigation positions him as a competent and qualified individual, without any overtly positive or negative spin.",
+        "createdAt": "2025-05-01T06:35:32.398389+00:00",
+        "eventHeadline": "Mumbai gets new Police Chief",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Deven Bharti has been appointed as the new Mumbai Police Commissioner, succeeding Vivek Phansalkar who is retiring after 35 years of service. Bharti, known for leading the 26/11 attacks investigation, will assume his new role later today.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:35:32.398389+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316380f4ff4c4471732a1"
+        },
         "event_id": "event_14_20250501063536",
-        "eventHeadline": "Modi skips Russia Victory Day",
-        "summary": "Kremlin spokesperson Dmitry Peskov announced that Indian Prime Minister Narendra Modi will not attend the May 9 Victory Day celebrations in Russia. The reason for Modi's absence was not specified by Peskov.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Indian Prime Minister Modi will not be attending Russia's May 9 Victory Day celebrations, according to a Kremlin spokesperson. While no reason was explicitly given, India maintains a neutral stance on the conflict in Ukraine, balancing its relationship with Russia and its Western partners.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:35:36.179590+00:00",
-        "updatedAt": "2025-05-01T06:35:36.179590+00:00",
         "articles": [
             {
                 "title": "PM Modi won't attend May 9 celebrations in Russia, says Kremlin spokesperson",
@@ -463,22 +493,25 @@
                 "alignment": "center",
                 "event_id": "event_14_20250501063536"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** Indian Prime Minister Narendra Modi will not be attending the May 9 Victory Day celebrations in Russia, according to the Kremlin spokesperson. While the specific reason for his absence was not provided in the headlines, it signals a potential shift or balancing act in India's foreign policy given the ongoing geopolitical tensions surrounding Russia.\n\n**[Reasoning]:** The summary is center-leaning because it avoids taking a strong position on the reason for Modi's absence, simply stating the fact as reported by the Kremlin. It acknowledges the potential implications for India's foreign policy but refrains from speculating on specific motives or assigning blame, a neutral approach characteristic of center-leaning perspectives.",
+        "createdAt": "2025-05-01T06:35:36.179590+00:00",
+        "eventHeadline": "Modi skips Russia Victory Day",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Kremlin spokesperson Dmitry Peskov announced that Indian Prime Minister Narendra Modi will not attend the May 9 Victory Day celebrations in Russia. The reason for Modi's absence was not specified by Peskov.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:35:36.179590+00:00"
     },
     {
+        "_id": {
+            "$oid": "6813163b0f4ff4c4471732a3"
+        },
         "event_id": "event_15_20250501063539",
-        "eventHeadline": "Federal Bank: Profit Exceeds Expectations",
-        "summary": "Federal Bank's Q4 net profit increased by 14%, surpassing market expectations. The bank has not released any further details regarding the drivers of this profit increase.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Federal Bank reported a strong fourth quarter, with net profits increasing by 14% and exceeding analyst expectations. This positive performance suggests continued growth and financial stability for the bank.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:35:39.343693+00:00",
-        "updatedAt": "2025-05-01T06:35:39.343693+00:00",
         "articles": [
             {
                 "title": "Federal Bank Q4 results: Net profit rises 14%; beats estimates",
@@ -492,22 +525,25 @@
                 "alignment": "center",
                 "event_id": "event_15_20250501063539"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** Federal Bank reported a strong Q4 performance with a 14% increase in net profit, exceeding market expectations. This positive result indicates solid financial health and efficient management within the bank.\n\n**[Reasoning]:** The summary focuses on the factual results (profit increase, exceeding estimates) without implying any specific cause or assigning blame/praise outside the direct financial performance. The language is neutral and avoids overly celebratory or critical tones, which aligns with a center-leaning perspective focused on objective reporting.",
+        "createdAt": "2025-05-01T06:35:39.343693+00:00",
+        "eventHeadline": "Federal Bank: Profit Exceeds Expectations",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Federal Bank's Q4 net profit increased by 14%, surpassing market expectations. The bank has not released any further details regarding the drivers of this profit increase.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:35:39.343693+00:00"
     },
     {
+        "_id": {
+            "$oid": "6813163e0f4ff4c4471732a5"
+        },
         "event_id": "event_16_20250501063542",
-        "eventHeadline": "Palmer's Promises: Empty Trumpets",
-        "summary": "This article from Independent Australia critiques Clive Palmer's \"Trumpet of Patriots\" (T.O.P.) political endeavor. The piece characterizes it as a self-serving compromise led by Palmer.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Clive Palmer's political efforts and media campaigns appear to be largely ineffective despite their bombastic nature. His attempts to influence public opinion and gain political traction have so far failed to yield significant results.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:35:42.370802+00:00",
-        "updatedAt": "2025-05-01T06:35:42.370802+00:00",
         "articles": [
             {
                 "title": " Clive Palmer&#039;s Trumpets blowing nothing but hot air",
@@ -521,22 +557,25 @@
                 "alignment": "center",
                 "event_id": "event_16_20250501063542"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Clive Palmer's political pronouncements and activities appear to be generating more hype than substance. His efforts, similar to Trump's, may be attracting attention but are unlikely to yield significant results or substantial impact.\n\n[Reasoning]: The summary is center-leaning because it acknowledges Palmer's efforts without outright dismissing them. The phrase \"more hype than substance\" suggests skepticism without being overtly critical or partisan. The comparison to Trump acknowledges a style or approach but doesn't inherently condemn it, instead casting doubt on its effectiveness, which is a neutral and pragmatic assessment.",
+        "createdAt": "2025-05-01T06:35:42.370802+00:00",
+        "eventHeadline": "Palmer's Promises: Empty Trumpets",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "This article from Independent Australia critiques Clive Palmer's \"Trumpet of Patriots\" (T.O.P.) political endeavor. The piece characterizes it as a self-serving compromise led by Palmer.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:35:42.370802+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316410f4ff4c4471732a7"
+        },
         "event_id": "event_17_20250501063545",
-        "eventHeadline": "Dutton: MAGA Promise, PM Pitch.",
-        "summary": "With the Australian Federal Election approaching, Opposition Leader Peter Dutton is being critiqued for a perceived lack of a clear platform. Meanwhile, the Prime Minister is reportedly focusing on delivering on campaign promises.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "While the opposition leader is employing tactics reminiscent of MAGA to gain traction, the Prime Minister is focusing on delivering on promised policies. This contrast suggests a potential divergence in political strategies as the next election approaches.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:35:45.154335+00:00",
-        "updatedAt": "2025-05-01T06:35:45.154335+00:00",
         "articles": [
             {
                 "title": " Dutton rides MAGA wave as PM pitches promise",
@@ -550,22 +589,25 @@
                 "alignment": "center",
                 "event_id": "event_17_20250501063545"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Recent political discourse suggests a possible shift in Australian politics, with opposition leader Dutton seemingly adopting strategies reminiscent of the American \"MAGA\" movement, while the Prime Minister is focused on promoting specific policy promises. This dynamic highlights a potential divergence in political approaches as the nation navigates current challenges.\n\n[Reasoning]: The summary presents the actions of both Dutton and the Prime Minister neutrally. It acknowledges Dutton's potential shift (\"seemingly adopting strategies\") without explicitly endorsing or criticizing it, and it frames the Prime Minister's actions as simply \"promoting specific policy promises,\" avoiding loaded language that could imply bias for or against either party.",
+        "createdAt": "2025-05-01T06:35:45.154335+00:00",
+        "eventHeadline": "Dutton: MAGA Promise, PM Pitch.",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "With the Australian Federal Election approaching, Opposition Leader Peter Dutton is being critiqued for a perceived lack of a clear platform. Meanwhile, the Prime Minister is reportedly focusing on delivering on campaign promises.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:35:45.154335+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316430f4ff4c4471732a9"
+        },
         "event_id": "event_18_20250501063547",
-        "eventHeadline": "Fox: No Spin Incoming?",
-        "summary": "Without additional context, the news event \"Analysis: Fox News is about to enter the true No Spin Zone. This is it.\" suggests a significant change or shift in Fox News' broadcasting approach, potentially towards a more unbiased or factual presentation of information. The \"true No Spin Zone\" implies a move away from opinion-based commentary.",
-        "location": "Unknown",
-        "leftSummary": "Rupert Murdoch's departure from Fox News leadership signals a potential shift towards a more reality-based approach, as his influence fostered a culture of misinformation and right-wing propaganda. Hopefully, this change will lead to a more responsible and factual reporting style, benefiting the public and promoting informed discourse.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 1,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:35:47.226912+00:00",
-        "updatedAt": "2025-05-01T06:35:47.226912+00:00",
         "articles": [
             {
                 "title": "Analysis: Fox News is about to enter the true No Spin Zone",
@@ -579,22 +621,25 @@
                 "alignment": "left",
                 "event_id": "event_18_20250501063547"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:35:47.226912+00:00",
+        "eventHeadline": "Fox: No Spin Incoming?",
+        "lCount": 1,
+        "leftSummary": "[Summary]: Fox News is facing significant internal turmoil and uncertainty, potentially losing its long-held grip on its narrative control. This disruption offers a chance to dismantle the network's harmful misinformation machine and promote more truthful reporting.\n\n[Reasoning]: The summary is left-leaning because it frames the events as potentially positive (\"chance to dismantle\") and criticizes Fox News (\"harmful misinformation machine\"). The language implies that Fox News's influence is inherently negative and that any shift in its power structure is a welcome development, which is a common left-leaning perspective.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Without additional context, the news event \"Analysis: Fox News is about to enter the true No Spin Zone. This is it.\" suggests a significant change or shift in Fox News' broadcasting approach, potentially towards a more unbiased or factual presentation of information. The \"true No Spin Zone\" implies a move away from opinion-based commentary.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:35:47.226912+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316450f4ff4c4471732ab"
+        },
         "event_id": "event_19_20250501063548",
-        "eventHeadline": "Spending: Consumers Tighten Pursestrings",
-        "summary": "U.S. retail spending decreased in March, indicating a pullback from consumers. This decline is attributed to concerns about a potential recession, possibly triggered by the recent banking crisis.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "March retail spending declined, suggesting consumers are becoming more cautious amid persistent inflation and economic uncertainty. While a pullback in spending could help curb inflation, it also raises concerns about slowing economic growth.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:35:48.794232+00:00",
-        "updatedAt": "2025-05-01T06:35:48.794232+00:00",
         "articles": [
             {
                 "title": "Retail spending fell in March as consumers pull back",
@@ -608,22 +653,25 @@
                 "alignment": "center",
                 "event_id": "event_19_20250501063548"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Retail spending decreased in March, indicating that consumers are beginning to reduce their spending. This pullback could be a sign of a slowing economy as individuals become more cautious with their finances.\n\n[Reasoning]: This summary is center-leaning because it presents the information factually without attributing blame or predicting drastic outcomes. It acknowledges both the spending decrease and the potential economic implications without leaning towards a specific political interpretation.",
+        "createdAt": "2025-05-01T06:35:48.794232+00:00",
+        "eventHeadline": "Spending: Consumers Tighten Pursestrings",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "U.S. retail spending decreased in March, indicating a pullback from consumers. This decline is attributed to concerns about a potential recession, possibly triggered by the recent banking crisis.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:35:48.794232+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316720f4ff4c4471732ad"
+        },
         "event_id": "event_20_20250501063634",
-        "eventHeadline": "Alok Joshi: NSA Board Head",
-        "summary": "Alok Joshi, former chief of India's Research and Analysis Wing (RAW), has been appointed head of the revamped National Security Advisory Board (NSA Board). The seven-member board is composed of retired senior officers from India's military, police, and foreign services.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Following a recent terror attack, Alok Joshi, former head of India's foreign intelligence agency RAW, has been appointed to lead a revamped National Security Advisory Board. This move suggests a renewed focus on security and intelligence expertise within the advisory body.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:36:34.574000+00:00",
-        "updatedAt": "2025-05-01T06:36:34.574000+00:00",
         "articles": [
             {
                 "title": "Who is Alok Joshi, former RAW chief, now appointed head of revamped NSA Board after Pahalgam terror attack?",
@@ -637,22 +685,25 @@
                 "alignment": "center",
                 "event_id": "event_20_20250501063634"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** Following a recent terror attack in Pahalgam, the Indian government has appointed Alok Joshi, a former chief of the Research and Analysis Wing (RAW), to lead the revamped National Security Advisory Board (NSAB). This move suggests an effort to bolster national security expertise and oversight in the wake of the incident.\n\n**[Reasoning]:** The summary is center-leaning because it presents the event factually, focusing on the change in leadership and its potential rationale (bolstering security) without attributing motive or blame. The neutral language avoids taking a position on the attack itself or the efficacy of Joshi's appointment, reflecting a moderate, objective viewpoint.",
+        "createdAt": "2025-05-01T06:36:34.574000+00:00",
+        "eventHeadline": "Alok Joshi: NSA Board Head",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Alok Joshi, former chief of India's Research and Analysis Wing (RAW), has been appointed head of the revamped National Security Advisory Board (NSA Board). The seven-member board is composed of retired senior officers from India's military, police, and foreign services.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:36:34.574000+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316770f4ff4c4471732af"
+        },
         "event_id": "event_21_20250501063639",
-        "eventHeadline": "Dollar: More Room to Fall",
-        "summary": "JPMorgan's Meera Oganes believes the US dollar has potential to weaken further. This suggests an expectation of either a decrease in demand for the dollar or an increase in the value of other currencies.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "JPMorgan suggests the U.S. dollar may experience further depreciation, indicating potential shifts in global currency values. This could impact international trade and investment, requiring businesses and policymakers to monitor the dollar's trajectory.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:36:39.540751+00:00",
-        "updatedAt": "2025-05-01T06:36:39.540751+00:00",
         "articles": [
             {
                 "title": "US dollar has more room to weaken, says JPMorgan's Oganes",
@@ -666,22 +717,25 @@
                 "alignment": "center",
                 "event_id": "event_21_20250501063639"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: JPMorgan's analyst Oganes suggests the US dollar may experience further depreciation. This assessment is based on economic factors and market trends that indicate potential for a weaker dollar in the future.\n\n[Reasoning]: This summary presents the information in a neutral tone, focusing on the expert opinion and economic factors without expressing alarm or celebration. It avoids assigning blame or predicting catastrophic outcomes, reflecting a center-leaning perspective that prioritizes objective reporting of economic analysis.",
+        "createdAt": "2025-05-01T06:36:39.540751+00:00",
+        "eventHeadline": "Dollar: More Room to Fall",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "JPMorgan's Meera Oganes believes the US dollar has potential to weaken further. This suggests an expectation of either a decrease in demand for the dollar or an increase in the value of other currencies.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:36:39.540751+00:00"
     },
     {
+        "_id": {
+            "$oid": "6813167a0f4ff4c4471732b1"
+        },
         "event_id": "event_22_20250501063641",
-        "eventHeadline": "Politics Darken Spanish Blackout",
-        "summary": "A massive blackout affecting Spain, Portugal, and France is under investigation, but political infighting in Spain is hindering the progress and clarity of the inquiry. Disagreements between the minority government and opposition parties are clouding efforts to determine the cause of the power outage.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "A power blackout in Spain is under investigation, but political tensions are hindering a clear and unbiased assessment of the cause. The highly polarized political climate is making it difficult to separate factual findings from political agendas.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:36:41.662857+00:00",
-        "updatedAt": "2025-05-01T06:36:41.662857+00:00",
         "articles": [
             {
                 "title": "Spain\u2019s Toxic Politics Clouds Investigation Into Power Blackout",
@@ -695,22 +749,25 @@
                 "alignment": "center",
                 "event_id": "event_22_20250501063641"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** An investigation into a recent power blackout in Spain is being complicated by the country's highly polarized political climate. The political tensions are seemingly hindering a clear and objective examination of the causes and consequences of the event.\n\n**[Reasoning]:** This summary avoids taking sides or assigning blame, instead focusing on the factual issue of political interference impacting an investigation. The language (\"complicated,\" \"hindering\") is neutral, and the emphasis on both \"causes and consequences\" of the blackout shows an interest in a balanced understanding of the situation.",
+        "createdAt": "2025-05-01T06:36:41.662857+00:00",
+        "eventHeadline": "Politics Darken Spanish Blackout",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "A massive blackout affecting Spain, Portugal, and France is under investigation, but political infighting in Spain is hindering the progress and clarity of the inquiry. Disagreements between the minority government and opposition parties are clouding efforts to determine the cause of the power outage.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:36:41.662857+00:00"
     },
     {
+        "_id": {
+            "$oid": "6813167c0f4ff4c4471732b3"
+        },
         "event_id": "event_23_20250501063644",
-        "eventHeadline": "**Tax Deadline Looms Near**",
-        "summary": "With the tax filing deadline approaching, many taxpayers are reminded to file their 2022 income tax returns. The IRS has already received over 90 million returns this tax season.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The tax filing deadline has passed, but resources are available for those who still need to file or request an extension. Late filers may face penalties and interest charges, so it's important to understand the options and potential consequences.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:36:44.421586+00:00",
-        "updatedAt": "2025-05-01T06:36:44.421586+00:00",
         "articles": [
             {
                 "title": "Still haven't filed your taxes? Here's what you need to know",
@@ -724,22 +781,25 @@
                 "alignment": "center",
                 "event_id": "event_23_20250501063644"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Taxpayers who have not yet filed their taxes should be aware of important deadlines, potential penalties, and available resources. The IRS offers guidance and information to help individuals meet their tax obligations, even for those filing late.\n\n[Reasoning]: The summary is center-leaning because it focuses on providing neutral information and resources, emphasizing individual responsibility to file taxes while acknowledging that some people may need assistance. There's no indication of blame or advocacy for specific tax policies, merely a focus on the practical aspects of filing.",
+        "createdAt": "2025-05-01T06:36:44.421586+00:00",
+        "eventHeadline": "**Tax Deadline Looms Near**",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "With the tax filing deadline approaching, many taxpayers are reminded to file their 2022 income tax returns. The IRS has already received over 90 million returns this tax season.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:36:44.421586+00:00"
     },
     {
+        "_id": {
+            "$oid": "6813167f0f4ff4c4471732b5"
+        },
         "event_id": "event_24_20250501063647",
-        "eventHeadline": "ED-A-MAMMA opens Bengaluru store.",
-        "summary": "ED-A-MAMMA, a currently undefined entity, has opened its first retail store in Bengaluru, located within the Mall of Asia. Details regarding the type of store or products offered are unavailable.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Ed-a-Mamma, a clothing brand, has expanded its retail presence by opening its first store in Bengaluru's Mall of Asia. This move signifies the brand's growth and increasing market reach within India's retail sector.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:36:47.107616+00:00",
-        "updatedAt": "2025-05-01T06:36:47.107616+00:00",
         "articles": [
             {
                 "title": "ED-A-MAMMA opens its first store in Bengaluru at mall of Asia",
@@ -753,22 +813,25 @@
                 "alignment": "center",
                 "event_id": "event_24_20250501063647"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:36:47.107616+00:00",
+        "eventHeadline": "ED-A-MAMMA opens Bengaluru store.",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "ED-A-MAMMA, a currently undefined entity, has opened its first retail store in Bengaluru, located within the Mall of Asia. Details regarding the type of store or products offered are unavailable.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:36:47.107616+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316810f4ff4c4471732b7"
+        },
         "event_id": "event_25_20250501063649",
-        "eventHeadline": "U.K., U.S. Strike Houthis",
-        "summary": "The U.K. joined the U.S. in conducting a military strike against Houthi targets in Yemen. This marks the first joint military operation between the two countries since President Trump assumed office.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The U.S. and U.K. launched strikes against Houthi targets in Yemen in response to the group's continued attacks on commercial shipping in the Red Sea. These strikes aim to degrade Houthi capabilities and deter further disruptions to international trade.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:36:49.005216+00:00",
-        "updatedAt": "2025-05-01T06:36:49.005216+00:00",
         "articles": [
             {
                 "title": "U.K. Joins U.S. in Strike Against Houthis in Yemen",
@@ -782,22 +845,25 @@
                 "alignment": "center",
                 "event_id": "event_25_20250501063649"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:36:49.005216+00:00",
+        "eventHeadline": "U.K., U.S. Strike Houthis",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The U.K. joined the U.S. in conducting a military strike against Houthi targets in Yemen. This marks the first joint military operation between the two countries since President Trump assumed office.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:36:49.005216+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316ae0f4ff4c4471732b9"
+        },
         "event_id": "event_26_20250501063734",
-        "eventHeadline": "Sharmila: House Arrest Allegations",
-        "summary": "Andhra Pradesh Congress chief YS Sharmila has alleged that she is under house arrest in Vijayawada, though the reasons for the alleged confinement remain unclear based on available information. Further details about the situation and any official response are currently lacking.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "YS Sharmila, Andhra Pradesh Congress chief, claims she was temporarily restricted to her residence in Vijayawada, alleging it was a form of house arrest. The reasons behind the alleged restriction and the authorities' response remain unclear.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:37:34.340378+00:00",
-        "updatedAt": "2025-05-01T06:37:34.340378+00:00",
         "articles": [
             {
                 "title": "Andhra Congress chief YS Sharmila alleges being under house arrest in Vijayawada",
@@ -811,22 +877,25 @@
                 "alignment": "center",
                 "event_id": "event_26_20250501063734"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: YS Sharmila, the Andhra Pradesh Congress chief, has claimed she is under house arrest in Vijayawada. The reasons for the alleged restriction on her movement are currently unclear, and further information is needed to determine the context and validity of her claims.\n\n[Reasoning]: The summary avoids taking a stance on whether the house arrest claim is true or politically motivated, opting for neutral language like \"alleged\" and stating that \"reasons are currently unclear.\" This balanced approach, refraining from accusatory language, is characteristic of a center-leaning perspective.",
+        "createdAt": "2025-05-01T06:37:34.340378+00:00",
+        "eventHeadline": "Sharmila: House Arrest Allegations",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Andhra Pradesh Congress chief YS Sharmila has alleged that she is under house arrest in Vijayawada, though the reasons for the alleged confinement remain unclear based on available information. Further details about the situation and any official response are currently lacking.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:37:34.340378+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316b20f4ff4c4471732bb"
+        },
         "event_id": "event_27_20250501063738",
-        "eventHeadline": "Caste Census in Future",
-        "summary": "The Indian government has decided to include a caste census as part of the next national population survey. This decision was made by the cabinet committee on political affairs, chaired by Prime Minister Modi.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The Indian government plans to include a caste census in its next population survey, a significant move that could inform policy decisions and resource allocation. This decision reflects a commitment to understanding and addressing caste-based inequalities, while also raising concerns about potential social and political ramifications.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:37:38.463860+00:00",
-        "updatedAt": "2025-05-01T06:37:38.463860+00:00",
         "articles": [
             {
                 "title": "Caste census to be part of next population survey: Centre takes big move",
@@ -840,22 +909,25 @@
                 "alignment": "center",
                 "event_id": "event_27_20250501063738"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: The central government has announced that a caste census will be included as part of the upcoming national population survey. This decision marks a significant step towards potentially addressing social inequalities, while the government has yet to elaborate on the specific methodology and use of the collected data.\n\n[Reasoning]: This summary is center-leaning because it presents the decision as a \"significant step\" without explicitly endorsing it as definitively positive or negative. The neutral phrasing acknowledges the potential benefits (\"addressing social inequalities\") but also highlights the lack of specific details from the government, suggesting a cautious and balanced perspective rather than outright support or criticism often seen in more politically charged reporting.",
+        "createdAt": "2025-05-01T06:37:38.463860+00:00",
+        "eventHeadline": "Caste Census in Future",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The Indian government has decided to include a caste census as part of the next national population survey. This decision was made by the cabinet committee on political affairs, chaired by Prime Minister Modi.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:37:38.463860+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316b50f4ff4c4471732bd"
+        },
         "event_id": "event_28_20250501063741",
-        "eventHeadline": "Pahalgam Terror: Congress Gag Order",
-        "summary": "Following a terror attack in Pahalgam, the Congress party has issued a gag order to its members, restricting them from speaking publicly about the situation. The reason for the gag order and the specific details of the \"row\" it is meant to address are not provided in the available information.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Following a terror attack in Pahalgam, the Congress party has issued internal restrictions on its members' public statements, citing the sensitivity of the situation. This move comes amidst public debate and scrutiny regarding the party's response to the attack.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:37:41.405836+00:00",
-        "updatedAt": "2025-05-01T06:37:41.405836+00:00",
         "articles": [
             {
                 "title": "Pahalgam Terror: Congress issues gag order on members in 'most sensitive of times' \u2014 what sparked the row",
@@ -869,22 +941,25 @@
                 "alignment": "center",
                 "event_id": "event_28_20250501063741"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** Amidst a terror incident in Pahalgam, the Congress party has reportedly issued a gag order to its members. This action follows some type of controversy or disagreement within the party, prompting leadership to attempt to control the narrative during a sensitive period.\n\n**[Reasoning]:** This summary presents the facts from the headlines without adopting a strongly critical or supportive tone. It acknowledges the terror incident and the gag order without implying blame or justification. The use of \"reportedly\" adds a neutral layer.",
+        "createdAt": "2025-05-01T06:37:41.405836+00:00",
+        "eventHeadline": "Pahalgam Terror: Congress Gag Order",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Following a terror attack in Pahalgam, the Congress party has issued a gag order to its members, restricting them from speaking publicly about the situation. The reason for the gag order and the specific details of the \"row\" it is meant to address are not provided in the available information.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:37:41.405836+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316b80f4ff4c4471732bf"
+        },
         "event_id": "event_29_20250501063744",
-        "eventHeadline": "SPD backs Merz coalition.",
-        "summary": "The German SPD (Social Democratic Party) has approved a coalition agreement. This agreement paves the way for Friedrich Merz, likely from the CDU/CSU, to become Chancellor of Germany.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Germany's Social Democratic Party (SPD) has approved a coalition agreement, clearing the path for Christian Democrat Friedrich Merz to assume the chancellorship. The coalition suggests a potential shift in German politics towards the center-right.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:37:44.191780+00:00",
-        "updatedAt": "2025-05-01T06:37:44.191780+00:00",
         "articles": [
             {
                 "title": "German SPD backs coalition, paving way for Chancellor Friedrich Merz",
@@ -898,22 +973,25 @@
                 "alignment": "center",
                 "event_id": "event_29_20250501063744"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** Germany's Social Democratic Party (SPD) has signaled its support for a coalition government, opening the door for Friedrich Merz of the Christian Democratic Union (CDU) to potentially become Chancellor. This development suggests a potential shift in German leadership, with the SPD willing to compromise to form a governing coalition.\n\n**[Reasoning]:** This summary is center-leaning because it neutrally presents the facts without expressing overt approval or disapproval. The phrasing \"paving the way\" and \"willing to compromise\" is factual and avoids portraying either party negatively or positively.",
+        "createdAt": "2025-05-01T06:37:44.191780+00:00",
+        "eventHeadline": "SPD backs Merz coalition.",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The German SPD (Social Democratic Party) has approved a coalition agreement. This agreement paves the way for Friedrich Merz, likely from the CDU/CSU, to become Chancellor of Germany.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:37:44.191780+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316bb0f4ff4c4471732c1"
+        },
         "event_id": "event_30_20250501063747",
-        "eventHeadline": "Sona BLW: Profit Up, Revenue Down",
-        "summary": "Sona BLW Precision Forgings reported a 10% increase in net profit to \u20b9164 crore in Q4. This growth occurred despite a 2% decrease in overall revenue during the same period.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Sona BLW Precision Forgings reported a 10% increase in net profit to \u20b9164 crore in Q4, despite experiencing a slight 2% decrease in revenue. This suggests improved efficiency and cost management helped the company achieve profitability despite a minor revenue decline.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:37:47.057700+00:00",
-        "updatedAt": "2025-05-01T06:37:47.057700+00:00",
         "articles": [
             {
                 "title": "Sona BLW Precision Forgings Q4 Results | Net profit up 10% at \u20b9164 crore despite 2% revenue dip",
@@ -927,22 +1005,25 @@
                 "alignment": "center",
                 "event_id": "event_30_20250501063747"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** Sona BLW Precision Forgings reported a 10% increase in net profit to \u20b9164 crore in Q4, despite a slight 2% dip in revenue. The company's ability to increase profitability while experiencing a minor revenue decline suggests improved efficiency or cost management.\n\n**[Reasoning]:** This summary is center-leaning because it presents the information factually without implying any specific cause for concern or celebration. It acknowledges both the positive (profit increase) and the negative (revenue decrease) aspects of the report, presenting a balanced overview.",
+        "createdAt": "2025-05-01T06:37:47.057700+00:00",
+        "eventHeadline": "Sona BLW: Profit Up, Revenue Down",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Sona BLW Precision Forgings reported a 10% increase in net profit to \u20b9164 crore in Q4. This growth occurred despite a 2% decrease in overall revenue during the same period.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:37:47.057700+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316bd0f4ff4c4471732c3"
+        },
         "event_id": "event_31_20250501063749",
-        "eventHeadline": "Congress Seeks Parliament Session",
-        "summary": "Following a recent terror attack in Pahalgam, India, the Congress party has written to Prime Minister Modi requesting a special session of Parliament. The party seeks to address the security situation and potentially discuss relevant policy responses in light of the attack.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Following a terror attack in Pahalgam, India, Congress party leaders have requested Prime Minister Modi convene a special Parliament session to address national security concerns. The request highlights the opposition's desire for increased transparency and a unified response to the ongoing threat of terrorism.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:37:49.315717+00:00",
-        "updatedAt": "2025-05-01T06:37:49.315717+00:00",
         "articles": [
             {
                 "title": "Congress writes to PM Modi for a special Parliament session in wake of Pahalgam terror attack",
@@ -956,22 +1037,25 @@
                 "alignment": "center",
                 "event_id": "event_31_20250501063749"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: In response to the recent terror attack in Pahalgam, members of Congress have formally requested Prime Minister Modi to convene a special session of Parliament. The request indicates a desire for focused discussion and potential action by the government in light of the security situation.\n\n[Reasoning]: The summary focuses on the factual event \u2013 Congress's request and its stated reason. It avoids accusatory language or speculation about motives from either side, which would be common in left or right-leaning reporting, and does not make value judgements.",
+        "createdAt": "2025-05-01T06:37:49.315717+00:00",
+        "eventHeadline": "Congress Seeks Parliament Session",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Following a recent terror attack in Pahalgam, India, the Congress party has written to Prime Minister Modi requesting a special session of Parliament. The party seeks to address the security situation and potentially discuss relevant policy responses in light of the attack.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:37:49.315717+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316bf0f4ff4c4471732c5"
+        },
         "event_id": "event_32_20250501063751",
-        "eventHeadline": "**India Bullet Train Progresses**",
-        "summary": "India's first bullet train, connecting Mumbai and Ahmedabad, is expected to be operational by 2028, according to Maharashtra Chief Minister Devendra Fadnavis. The project aims to provide faster transportation between the two cities.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "India's first bullet train project, connecting Mumbai and Ahmedabad, is making significant progress, promising commuters faster travel times and advanced features. The project represents a major infrastructure development aimed at modernizing India's transportation network.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:37:51.215059+00:00",
-        "updatedAt": "2025-05-01T06:37:51.215059+00:00",
         "articles": [
             {
                 "title": "BIG update on India's first bullet train for Mumbai-Ahmedabad corridor: Commuters will be able to travel by...,check features and\u00a0other\u00a0details",
@@ -985,22 +1069,25 @@
                 "alignment": "center",
                 "event_id": "event_32_20250501063751"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: India's first bullet train project, the Mumbai-Ahmedabad corridor, is progressing with updates on features and travel details. This development signifies advancements in India's infrastructure and transportation capabilities.\n\n[Reasoning]: This summary is center-leaning because it focuses on the practical progress and potential benefits of the project (\"advancements in India's infrastructure\") without expressing strong opinions or taking a partisan stance, simply stating the facts of the bullet train project moving forward.",
+        "createdAt": "2025-05-01T06:37:51.215059+00:00",
+        "eventHeadline": "**India Bullet Train Progresses**",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "India's first bullet train, connecting Mumbai and Ahmedabad, is expected to be operational by 2028, according to Maharashtra Chief Minister Devendra Fadnavis. The project aims to provide faster transportation between the two cities.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:37:51.215059+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316ed0f4ff4c4471732c7"
+        },
         "event_id": "event_33_20250501063836",
-        "eventHeadline": "**India Supported, Not Pakistan**",
-        "summary": "Following an attack in Pahalgam, Afghanistan's acting Foreign Minister condemned the incident and reiterated previous condemnations of similar terrorist acts. The Taliban has stated that these attacks undermine regional security and stability.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Following a terrorist attack in Pahalgam, Afghanistan's Taliban government surprisingly condemned the violence and expressed support for India, despite historical ties and tensions with Pakistan. This unexpected stance highlights the complex and evolving geopolitical dynamics in the region, potentially driven by strategic considerations or a desire for international legitimacy.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:38:36.764398+00:00",
-        "updatedAt": "2025-05-01T06:38:36.764398+00:00",
         "articles": [
             {
                 "title": "Pahalgam Attack: Why did Taliban-ruled Afghanistan support India, not Pakistan?",
@@ -1014,22 +1101,25 @@
                 "alignment": "center",
                 "event_id": "event_33_20250501063836"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Following an attack in Pahalgam, questions have arisen regarding Afghanistan's surprising support for India over Pakistan. The reasons behind this alignment are currently unclear and warrant further examination to understand the evolving geopolitical dynamics in the region.\n\n[Reasoning]: This summary is center-leaning because it neutrally presents the situation without taking a stance on the attack or the motivations of either country. It uses objective language like \"questions have arisen\" and \"currently unclear,\" avoiding loaded terms or framing that would indicate a particular bias.",
+        "createdAt": "2025-05-01T06:38:36.764398+00:00",
+        "eventHeadline": "**India Supported, Not Pakistan**",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Following an attack in Pahalgam, Afghanistan's acting Foreign Minister condemned the incident and reiterated previous condemnations of similar terrorist acts. The Taliban has stated that these attacks undermine regional security and stability.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:38:36.764398+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316f10f4ff4c4471732c9"
+        },
         "event_id": "event_34_20250501063841",
-        "eventHeadline": "Switzerland: Hamas Activities Targeted",
-        "summary": "Switzerland has enacted a law aimed at curbing activities related to Hamas within its borders, going into effect on May 15th. The specific details of the law and its restrictions have not yet been disclosed.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Switzerland has enacted a law to combat Hamas activities within its borders, aiming to prevent the group from using Swiss territory for illegal operations. The law, effective May 15, is intended to align Swiss policy with international efforts to counter terrorism.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:38:41.368683+00:00",
-        "updatedAt": "2025-05-01T06:38:41.368683+00:00",
         "articles": [
             {
                 "title": "Switzerland enacts law to curb Hamas activities, effective May 15",
@@ -1043,22 +1133,25 @@
                 "alignment": "center",
                 "event_id": "event_34_20250501063841"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Switzerland has implemented a law aimed at restricting activities conducted by Hamas, with the legislation taking effect on May 15th. The law intends to prevent the group from using Swiss territory for activities such as fundraising or recruitment.\n\n[Reasoning]: This summary is center-leaning because it neutrally states the fact that Switzerland is curbing Hamas activities without explicitly praising or condemning the action. It uses straightforward language and focuses on the core factual information presented in the headline.",
+        "createdAt": "2025-05-01T06:38:41.368683+00:00",
+        "eventHeadline": "Switzerland: Hamas Activities Targeted",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Switzerland has enacted a law aimed at curbing activities related to Hamas within its borders, going into effect on May 15th. The specific details of the law and its restrictions have not yet been disclosed.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:38:41.368683+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316f40f4ff4c4471732cb"
+        },
         "event_id": "event_35_20250501063844",
-        "eventHeadline": "Temu Trump's Poll Numbers Drop",
-        "summary": "According to Independent Australia, the Coalition's chances of winning the next Federal Election are diminishing. Current polling suggests Peter Dutton faces significant challenges in securing a victory.",
-        "location": "Unknown",
-        "leftSummary": "The right-wing coalition's prospects are dwindling as voters reject their populist, Trump-inspired candidate, likely due to his reliance on cheap, unsustainable tactics. This signals a rejection of far-right strategies and a demand for more substantive, progressive solutions.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 1,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:38:44.513670+00:00",
-        "updatedAt": "2025-05-01T06:38:44.513670+00:00",
         "articles": [
             {
                 "title": " Coalition&#039;s resurrection hopes slump as punters dump Temu Trump",
@@ -1072,22 +1165,25 @@
                 "alignment": "left",
                 "event_id": "event_35_20250501063844"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:38:44.513670+00:00",
+        "eventHeadline": "Temu Trump's Poll Numbers Drop",
+        "lCount": 1,
+        "leftSummary": "[Summary]: The right-wing coalition's attempts to regain power are failing, as voters reject their alliance with a candidate likened to Trump (likely an Australian politician). This signals a rejection of right-wing populist tactics and policies.\n\n[Reasoning]: The summary is left-leaning because it frames the situation as a failure of the \"right-wing coalition\" and their \"populist tactics.\" The use of \"Temu Trump\" implies the candidate is a cheap imitation and undesirable.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "According to Independent Australia, the Coalition's chances of winning the next Federal Election are diminishing. Current polling suggests Peter Dutton faces significant challenges in securing a victory.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:38:44.513670+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316f60f4ff4c4471732cd"
+        },
         "event_id": "event_36_20250501063846",
-        "eventHeadline": "TN Cabinet: Reshuffle and Resignations",
-        "summary": "Tamil Nadu ministers Senthil Balaji and Ponmudy have resigned from their positions. Mano Thangaraj is returning to a ministerial role in the state government.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Two ministers in Tamil Nadu, Senthil Balaji and Ponmudy, have resigned from their positions, likely due to ongoing legal issues they face. Mano Thangaraj has been appointed to fill one of the vacancies, marking his return to the state cabinet.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:38:46.126460+00:00",
-        "updatedAt": "2025-05-01T06:38:46.126460+00:00",
         "articles": [
             {
                 "title": "TN ministers Senthil Balaji and Ponmudy resign, Mano Thangaraj makes comeback",
@@ -1101,22 +1197,25 @@
                 "alignment": "center",
                 "event_id": "event_36_20250501063846"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** Two Tamil Nadu ministers, Senthil Balaji and Ponmudy, have resigned from their positions, while Mano Thangaraj is returning to a ministerial role. The resignations likely stem from recent legal or political challenges faced by Balaji and Ponmudy, leading to a cabinet reshuffle.\n\n**[Reasoning]:** This summary avoids assigning blame or taking a position on the reasons behind the resignations, simply stating the facts of the ministerial changes. It uses neutral language like \"likely stem from\" instead of more accusatory or supportive phrasing.",
+        "createdAt": "2025-05-01T06:38:46.126460+00:00",
+        "eventHeadline": "TN Cabinet: Reshuffle and Resignations",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Tamil Nadu ministers Senthil Balaji and Ponmudy have resigned from their positions. Mano Thangaraj is returning to a ministerial role in the state government.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:38:46.126460+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316f90f4ff4c4471732cf"
+        },
         "event_id": "event_37_20250501063849",
-        "eventHeadline": "India: Shipbuilding Boost Planned",
-        "summary": "Maharashtra, India's wealthiest state, is launching a new initiative aimed at strengthening its shipbuilding industry. The plan is intended to foster growth and development within the sector, though specific details remain undisclosed.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Maharashtra, India's wealthiest state, is implementing a new initiative to bolster its shipbuilding industry, potentially increasing economic activity and job creation in the region. The plan aims to attract investment and develop infrastructure to support the growth of shipbuilding capabilities within the state.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:38:49.118229+00:00",
-        "updatedAt": "2025-05-01T06:38:49.118229+00:00",
         "articles": [
             {
                 "title": "Inside India's richest state's new plan to boost shipbuilding",
@@ -1130,22 +1229,25 @@
                 "alignment": "center",
                 "event_id": "event_37_20250501063849"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:38:49.118229+00:00",
+        "eventHeadline": "India: Shipbuilding Boost Planned",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Maharashtra, India's wealthiest state, is launching a new initiative aimed at strengthening its shipbuilding industry. The plan is intended to foster growth and development within the sector, though specific details remain undisclosed.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:38:49.118229+00:00"
     },
     {
+        "_id": {
+            "$oid": "681316fb0f4ff4c4471732d1"
+        },
         "event_id": "event_38_20250501063851",
-        "eventHeadline": "Iran Nuclear Talks Resume",
-        "summary": "Iran, the UK, France, and Germany will convene for nuclear talks on Friday. The purpose and specific details of the talks remain undisclosed.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Iran and European nations (UK, France, Germany) are set to meet for nuclear talks, signaling a potential diplomatic effort to address concerns surrounding Iran's nuclear program. The talks likely aim to de-escalate tensions and find a path towards compliance with existing agreements.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:38:51.019991+00:00",
-        "updatedAt": "2025-05-01T06:38:51.019991+00:00",
         "articles": [
             {
                 "title": "Iran, UK, France, and Germany to hold nuclear talks on Friday",
@@ -1159,22 +1261,25 @@
                 "alignment": "center",
                 "event_id": "event_38_20250501063851"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:38:51.019991+00:00",
+        "eventHeadline": "Iran Nuclear Talks Resume",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Iran, the UK, France, and Germany will convene for nuclear talks on Friday. The purpose and specific details of the talks remain undisclosed.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:38:51.019991+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317280f4ff4c4471732d3"
+        },
         "event_id": "event_39_20250501063936",
-        "eventHeadline": "Uncertainty stalls private investment.",
-        "summary": "The Finance Ministry has expressed concern that ongoing global uncertainties could hinder private capital expenditure. This warning suggests potential economic headwinds and a need for monitoring investment trends in the face of global instability.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The Finance Ministry is concerned that continued global economic uncertainty may discourage private companies from making capital expenditures. This potential slowdown in investment could hinder economic growth and recovery.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:39:36.521466+00:00",
-        "updatedAt": "2025-05-01T06:39:36.521466+00:00",
         "articles": [
             {
                 "title": "Finance Ministry warns of private capex stalling due to prolonged global uncertainties",
@@ -1188,22 +1293,25 @@
                 "alignment": "center",
                 "event_id": "event_39_20250501063936"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** The Finance Ministry has expressed concerns that continued global instability could hinder private sector capital expenditure, potentially slowing economic growth. This warning highlights the delicate balance between global events and domestic investment, suggesting a need for policies that can mitigate external risks and encourage business confidence.\n\n**[Reasoning]:** This summary is center-leaning because it acknowledges the Finance Ministry's concern without assigning blame or advocating for specific radical solutions. The language is neutral and focuses on the economic impact and the need for balanced policies, avoiding a left-leaning emphasis on government intervention or a right-leaning focus on deregulation as the sole solution.",
+        "createdAt": "2025-05-01T06:39:36.521466+00:00",
+        "eventHeadline": "Uncertainty stalls private investment.",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The Finance Ministry has expressed concern that ongoing global uncertainties could hinder private capital expenditure. This warning suggests potential economic headwinds and a need for monitoring investment trends in the face of global instability.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:39:36.521466+00:00"
     },
     {
+        "_id": {
+            "$oid": "6813172c0f4ff4c4471732d5"
+        },
         "event_id": "event_40_20250501063940",
-        "eventHeadline": "Trump insults Rep. Thanedar",
-        "summary": "During a rally, former President Trump referred to Michigan Representative Shri Thanedar as a \"lunatic\" and a \"dumb guy.\" The comments were made while discussing the 2024 presidential election and criticizing Democratic policies.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "During a campaign event, Donald Trump criticized Michigan Representative Shri Thanedar, an Indian-American Democrat, using strong, personal insults. The remarks have sparked debate regarding the appropriateness and potential implications of such rhetoric in political discourse.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:39:40.422278+00:00",
-        "updatedAt": "2025-05-01T06:39:40.422278+00:00",
         "articles": [
             {
                 "title": "Trump calls India-born Democrat Rep Shri Thanedar 'lunatic, dumb guy'",
@@ -1217,22 +1325,25 @@
                 "alignment": "center",
                 "event_id": "event_40_20250501063940"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Former President Trump criticized Democratic Representative Shri Thanedar, calling him names during a public appearance. The remarks highlight the continued tensions and increasingly personal nature of political discourse.\n\n[Reasoning]: This summary is center-leaning because it neutrally reports the event without taking sides or endorsing either Trump's statements or Thanedar's political position. It simply states what happened and implies a negative view towards increasingly personal attacks in politics, a common moderate concern.",
+        "createdAt": "2025-05-01T06:39:40.422278+00:00",
+        "eventHeadline": "Trump insults Rep. Thanedar",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "During a rally, former President Trump referred to Michigan Representative Shri Thanedar as a \"lunatic\" and a \"dumb guy.\" The comments were made while discussing the 2024 presidential election and criticizing Democratic policies.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:39:40.422278+00:00"
     },
     {
+        "_id": {
+            "$oid": "6813172f0f4ff4c4471732d7"
+        },
         "event_id": "event_41_20250501063943",
-        "eventHeadline": "T+0 Settlement: Optional, Adapting",
-        "summary": "SEBI will keep the T+0 settlement cycle optional for now, according to Tuhin Kanta Pandey, amid concerns about investor and Foreign Portfolio Investor (FPI) readiness. This decision allows for a more gradual adoption of the faster settlement process while addressing potential challenges.",
-        "location": "Unknown",
-        "leftSummary": "The SEBI's decision to keep T+0 settlement optional reveals a cautious approach prioritizing the comfort of foreign portfolio investors and potentially larger market players over increased efficiency and accessibility for everyday investors. This hesitation highlights the power of established financial interests in shaping market regulations, even if it means slower progress towards a more modern and inclusive system.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 1,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:39:43.207912+00:00",
-        "updatedAt": "2025-05-01T06:39:43.207912+00:00",
         "articles": [
             {
                 "title": "Exclusive | SEBI keeps T+0 settlement optional amid investor and FPI adaptation challenges: Tuhin Kanta Pandey",
@@ -1246,22 +1357,25 @@
                 "alignment": "left",
                 "event_id": "event_41_20250501063943"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:39:43.207912+00:00",
+        "eventHeadline": "T+0 Settlement: Optional, Adapting",
+        "lCount": 1,
+        "leftSummary": "[Summary]: Regulators are proceeding cautiously with T+0 settlement due to concerns about investor adaptation and potential challenges for Foreign Portfolio Investors (FPIs). This measured approach is a reasonable delay that prioritizes stability and accessibility for ordinary investors over the pursuit of rapid market changes favored by large financial institutions.\n\n[Reasoning]: The summary is left-leaning because it emphasizes \"stability\" and \"accessibility for ordinary investors,\" implicitly criticizing the potentially disruptive changes that primarily benefit powerful financial entities (FPIs) pushing for faster settlement. The framing suggests a concern for the potential inequalities that rapid financial changes could exacerbate.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "SEBI will keep the T+0 settlement cycle optional for now, according to Tuhin Kanta Pandey, amid concerns about investor and Foreign Portfolio Investor (FPI) readiness. This decision allows for a more gradual adoption of the faster settlement process while addressing potential challenges.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:39:43.207912+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317330f4ff4c4471732d9"
+        },
         "event_id": "event_42_20250501063946",
-        "eventHeadline": "Trump criticizes Powell on rates.",
-        "summary": "Former President Donald Trump criticized Federal Reserve Chair Jerome Powell at a rally in Michigan, stating Powell is \"not good at his job\" and claiming superior knowledge of interest rates. The comments were made while Trump defended his economic policies, including tariffs, as part of his 100-day policy rollout.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Donald Trump has criticized Federal Reserve Chairman Jerome Powell's handling of interest rates, asserting his own superior knowledge of monetary policy. This continues a pattern of Trump publicly disagreeing with the Fed chair, raising questions about political influence on the independent central bank.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:39:46.704947+00:00",
-        "updatedAt": "2025-05-01T06:39:46.704947+00:00",
         "articles": [
             {
                 "title": "Donald Trump blasts \u2018not good at his job\u2019 Jerome Powell again, claims to know more about interest rates \u2014 What he said",
@@ -1275,22 +1389,25 @@
                 "alignment": "center",
                 "event_id": "event_42_20250501063946"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Former President Trump has publicly criticized Federal Reserve Chair Jerome Powell's handling of interest rates, stating his belief that he possesses superior knowledge on the subject. This marks another instance of Trump voicing his disapproval of the Fed's monetary policies.\n\n[Reasoning]: This summary is center-leaning because it neutrally presents Trump's claims (\"states his belief\") without endorsing or dismissing them. It also frames the event as a recurring pattern (\"another instance\"), avoiding partisan language and simply stating the facts as presented in the headlines.",
+        "createdAt": "2025-05-01T06:39:46.704947+00:00",
+        "eventHeadline": "Trump criticizes Powell on rates.",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Former President Donald Trump criticized Federal Reserve Chair Jerome Powell at a rally in Michigan, stating Powell is \"not good at his job\" and claiming superior knowledge of interest rates. The comments were made while Trump defended his economic policies, including tariffs, as part of his 100-day policy rollout.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:39:46.704947+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317350f4ff4c4471732db"
+        },
         "event_id": "event_43_20250501063949",
-        "eventHeadline": "Congress Poster Fuels Online Fire",
-        "summary": "A Congress poster, released shortly after the Pahalgam attack, has ignited a dispute with the BJP. The poster, referred to as \"Gayab,\" has prompted online users to seek explanations from the Grok AI to understand its intended target.",
-        "location": "Unknown",
-        "leftSummary": "A Congress party poster criticizing rising prices, featuring the word \"gayab\" (disappeared) to highlight government failures, has sparked outrage from the BJP, who are attempting to use it to distract from real issues. Critics suggest this manufactured controversy is an attempt to silence dissent and weaponize social media to attack political opponents.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 1,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:39:49.438434+00:00",
-        "updatedAt": "2025-05-01T06:39:49.438434+00:00",
         "articles": [
             {
                 "title": "\u2018Gayab\u2019 and gone wild: Congress poster triggers BJP fury; netizens turn to Grok",
@@ -1304,22 +1421,25 @@
                 "alignment": "left",
                 "event_id": "event_43_20250501063949"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:39:49.438434+00:00",
+        "eventHeadline": "Congress Poster Fuels Online Fire",
+        "lCount": 1,
+        "leftSummary": "[Summary]: A Congress poster criticizing the BJP government led to an overblown, manufactured controversy by the BJP, likely as a distraction from more pressing issues. Social media users mocked the manufactured outrage, using AI to further highlight the absurdity of the BJP's reaction.\n\n[Reasoning]: The summary is left-leaning because it uses terms like \"manufactured controversy\" and \"overblown\" to downplay the BJP's concerns and frame them as a deliberate distraction. It also implies that the criticism leveled by Congress is valid.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "A Congress poster, released shortly after the Pahalgam attack, has ignited a dispute with the BJP. The poster, referred to as \"Gayab,\" has prompted online users to seek explanations from the Grok AI to understand its intended target.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:39:49.438434+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317370f4ff4c4471732dd"
+        },
         "event_id": "event_44_20250501063951",
-        "eventHeadline": "Basaveshwara birth anniversary celebrated.",
-        "summary": "The birth anniversary of 12th-century social reformer Basaveshwar was celebrated in Yadgir on April 30th. MLA Channareddy Patil Tunnur commemorated the event by offering floral tributes to Basaveshwar.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The birth anniversary of Basaveshwar, a 12th-century social reformer, was celebrated in Yadgir, commemorating his contributions to society. The event likely highlighted his progressive ideals and impact on social justice.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:39:51.237744+00:00",
-        "updatedAt": "2025-05-01T06:39:51.237744+00:00",
         "articles": [
             {
                 "title": "Birth anniversary of 12th century social reformer Basaveshwar celebrated in Yadgir\u00a0",
@@ -1333,22 +1453,25 @@
                 "alignment": "center",
                 "event_id": "event_44_20250501063951"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: The birth anniversary of Basaveshwara, a notable 12th-century social reformer, was recently celebrated in Yadgir. Basaveshwara is remembered for his efforts in social reform and his contributions to philosophy and literature during his time.\n\n[Reasoning]: This summary is center-leaning because it focuses on the historical event and Basaveshwara's acknowledged role as a social reformer without adding any political slant or interpretation. It uses neutral language and emphasizes the factual nature of the celebration and his contributions.",
+        "createdAt": "2025-05-01T06:39:51.237744+00:00",
+        "eventHeadline": "Basaveshwara birth anniversary celebrated.",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The birth anniversary of 12th-century social reformer Basaveshwar was celebrated in Yadgir on April 30th. MLA Channareddy Patil Tunnur commemorated the event by offering floral tributes to Basaveshwar.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:39:51.237744+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317390f4ff4c4471732df"
+        },
         "event_id": "event_45_20250501063953",
-        "eventHeadline": "CBI: Dismantles Child Abuse Networks",
-        "summary": "The CBI, under \"Operation Hawk 2025,\" is actively dismantling networks involved in child sexual abuse and exploitation. As part of this operation, cases have been registered against Sheik Muizz Ahmed of Mangaluru and Mukul Saini of Delhi.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The CBI is actively working to combat child sexual abuse and exploitation through Operation Hawk 2025, dismantling online networks involved in these crimes. This initiative reflects law enforcement's commitment to protecting vulnerable children and holding perpetrators accountable.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:39:53.288325+00:00",
-        "updatedAt": "2025-05-01T06:39:53.288325+00:00",
         "articles": [
             {
                 "title": "CBI dismantles child sexual abuse exploitation networks as part of Operation Hawk 2025",
@@ -1362,22 +1485,25 @@
                 "alignment": "center",
                 "event_id": "event_45_20250501063953"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** The Central Bureau of Investigation (CBI) is actively working to combat child sexual abuse by dismantling exploitation networks under Operation Hawk 2025. This operation highlights law enforcement's ongoing efforts to protect vulnerable children from online predators.\n\n**[Reasoning]:** This summary presents the news as a straightforward law enforcement action against criminal activity, focusing on the CBI's proactive role and the goal of protecting children. This avoids any potential political framing by emphasizing the facts of the operation.",
+        "createdAt": "2025-05-01T06:39:53.288325+00:00",
+        "eventHeadline": "CBI: Dismantles Child Abuse Networks",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The CBI, under \"Operation Hawk 2025,\" is actively dismantling networks involved in child sexual abuse and exploitation. As part of this operation, cases have been registered against Sheik Muizz Ahmed of Mangaluru and Mukul Saini of Delhi.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:39:53.288325+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317670f4ff4c4471732e1"
+        },
         "event_id": "event_46_20250501064038",
-        "eventHeadline": "Pahalgam Attack: Deep Sorrow Expressed",
-        "summary": "Following a recent terrorist attack in Pahalgam, Jammu and Kashmir Chief Minister Omar Abdullah expressed deep sorrow and a lack of words to adequately convey the pain and seek an apology for the event. The attack has evidently had a significant emotional impact.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Following a terror attack in Pahalgam, Jammu and Kashmir Chief Minister Omar expressed deep sorrow and indicated that an apology was insufficient to address the pain caused by the violence. The attack underscores the ongoing security challenges and the emotional toll of terrorism in the region.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:40:38.677268+00:00",
-        "updatedAt": "2025-05-01T06:40:38.677268+00:00",
         "articles": [
             {
                 "title": "Pahalgam terror attack hollowed us, have no words to seek apology, says J&K CM Omar",
@@ -1391,22 +1517,25 @@
                 "alignment": "center",
                 "event_id": "event_46_20250501064038"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: A recent terror attack in Pahalgam, Jammu and Kashmir, has been strongly condemned by J&K CM Omar, who expressed deep sorrow and indicated the severity of the incident. The CM's statement highlights the emotional impact of the attack on the region.\n\n[Reasoning]: The summary is center-leaning because it focuses on the emotional response of the CM and the impact on the region without assigning blame or delving into specific political or ideological implications. It neutrally reports the event and the CM's reaction, reflecting a balanced and objective perspective.",
+        "createdAt": "2025-05-01T06:40:38.677268+00:00",
+        "eventHeadline": "Pahalgam Attack: Deep Sorrow Expressed",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Following a recent terrorist attack in Pahalgam, Jammu and Kashmir Chief Minister Omar Abdullah expressed deep sorrow and a lack of words to adequately convey the pain and seek an apology for the event. The attack has evidently had a significant emotional impact.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:40:38.677268+00:00"
     },
     {
+        "_id": {
+            "$oid": "6813176b0f4ff4c4471732e3"
+        },
         "event_id": "event_47_20250501064043",
-        "eventHeadline": "Google: Salary Structure Shift",
-        "summary": "Google is adjusting its salary structure to tie compensation more closely to performance, potentially increasing bonuses and equity for high-achieving employees while decreasing them for lower performers. The changes, impacting end-of-year reviews and 2026 compensation, are designed to incentivize top contributors, though Google asserts it will maintain competitive compensation overall.",
-        "location": "Unknown",
-        "leftSummary": "Google's salary restructuring likely aims to cut costs and consolidate power, potentially squeezing worker compensation and benefits. This move, typical of large corporations, could exacerbate income inequality and further enrich executives at the expense of the broader workforce.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 1,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:40:43.578492+00:00",
-        "updatedAt": "2025-05-01T06:40:43.578492+00:00",
         "articles": [
             {
                 "title": "Google is making changes to its salary structure: Here's what it means",
@@ -1420,22 +1549,25 @@
                 "alignment": "left",
                 "event_id": "event_47_20250501064043"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:40:43.578492+00:00",
+        "eventHeadline": "Google: Salary Structure Shift",
+        "lCount": 1,
+        "leftSummary": "[Summary]: Google's restructuring of its salary system likely signals a move to further suppress wages, prioritizing profit margins over fair compensation for workers. These changes could exacerbate existing pay disparities, ultimately benefiting executives and shareholders at the expense of the average employee.\n[Reasoning]: This summary is left-leaning because it frames the salary changes as potentially exploitative, focusing on wage suppression, pay disparities, and the prioritization of profit over worker well-being. This aligns with a left-leaning perspective that often critiques corporate power and advocates for worker's rights and economic equality.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Google is adjusting its salary structure to tie compensation more closely to performance, potentially increasing bonuses and equity for high-achieving employees while decreasing them for lower performers. The changes, impacting end-of-year reviews and 2026 compensation, are designed to incentivize top contributors, though Google asserts it will maintain competitive compensation overall.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:40:43.578492+00:00"
     },
     {
+        "_id": {
+            "$oid": "6813176e0f4ff4c4471732e5"
+        },
         "event_id": "event_48_20250501064046",
-        "eventHeadline": "SC Halts CBI Probe Advisor",
-        "summary": "The Supreme Court has temporarily halted a CBI investigation into disproportionate assets against KM Abraham, a top advisor to the Kerala Chief Minister. Abraham, who has served in the Chief Minister's Office since May 2021, was recently given the rank of a Cabinet minister.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The Supreme Court upheld a CBI investigation into alleged disproportionate assets of KM Abraham, a top advisor to Kerala's Chief Minister. The case raises questions about potential corruption at high levels of the Kerala government, but the investigation is ongoing and its outcome remains to be seen.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:40:46.563620+00:00",
-        "updatedAt": "2025-05-01T06:40:46.563620+00:00",
         "articles": [
             {
                 "title": "SC stays CBI probe against Kerala CM's top advisor in a DA case. Who is KM Abraham?",
@@ -1449,22 +1581,25 @@
                 "alignment": "center",
                 "event_id": "event_48_20250501064046"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: The Supreme Court has upheld the CBI investigation into a disproportionate assets (DA) case involving KM Abraham, a top advisor to the Kerala Chief Minister. The case revolves around allegations of financial impropriety, and the court's decision allows the investigation to proceed.\n\n[Reasoning]: This summary is center-leaning as it neutrally states the facts of the event. It avoids taking a position that is either pro-government or anti-government and uses neutral language like \"disproportionate assets\" and \"financial impropriety\" without framing the issue as a clear case of corruption or political vendetta.",
+        "createdAt": "2025-05-01T06:40:46.563620+00:00",
+        "eventHeadline": "SC Halts CBI Probe Advisor",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The Supreme Court has temporarily halted a CBI investigation into disproportionate assets against KM Abraham, a top advisor to the Kerala Chief Minister. Abraham, who has served in the Chief Minister's Office since May 2021, was recently given the rank of a Cabinet minister.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:40:46.563620+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317710f4ff4c4471732e7"
+        },
         "event_id": "event_49_20250501064048",
-        "eventHeadline": "Trump: Ukraine Minerals Deal Soon",
-        "summary": "According to the White House, Donald Trump is optimistic about finalizing a critical minerals agreement with Ukraine. This potential deal could strengthen U.S. support for Ukraine amidst reported frustrations from Trump regarding delays in achieving a ceasefire in the Russia-Ukraine war.",
-        "location": "Unknown",
-        "leftSummary": "Trump is reportedly eager to sign a deal exploiting Ukraine's mineral resources, likely prioritizing corporate profits over the needs of the Ukrainian people and potentially hindering the country's long-term economic independence as it struggles with war. This deal raises concerns that Trump is leveraging Ukraine's vulnerability for personal or political gain.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 1,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:40:48.694858+00:00",
-        "updatedAt": "2025-05-01T06:40:48.694858+00:00",
         "articles": [
             {
                 "title": "Trump\u2019s Confident He\u2019ll Sign Ukraine Minerals Deal, Leavitt Says",
@@ -1478,22 +1613,25 @@
                 "alignment": "left",
                 "event_id": "event_49_20250501064048"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:40:48.694858+00:00",
+        "eventHeadline": "Trump: Ukraine Minerals Deal Soon",
+        "lCount": 1,
+        "leftSummary": "**[Summary]:** Trump is reportedly planning a deal to exploit Ukraine's mineral resources, which is deeply concerning. This move appears to prioritize corporate interests and potentially exploit a vulnerable nation amidst ongoing conflict, raising fears about environmental damage and neocolonial practices.\n\n**[Reasoning]:** The summary's focus on \"corporate interests,\" \"exploit a vulnerable nation,\" \"environmental damage,\" and \"neocolonial practices\" highlights potential negative consequences of the deal, reflecting a left-leaning perspective that often criticizes unchecked corporate power and prioritizes social and environmental justice. The phrasing implies skepticism towards Trump's motives and potential harm to Ukraine.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "According to the White House, Donald Trump is optimistic about finalizing a critical minerals agreement with Ukraine. This potential deal could strengthen U.S. support for Ukraine amidst reported frustrations from Trump regarding delays in achieving a ceasefire in the Russia-Ukraine war.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:40:48.694858+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317730f4ff4c4471732e9"
+        },
         "event_id": "event_50_20250501064051",
-        "eventHeadline": "SVB Collapse: Equity Concerns Rise",
-        "summary": "Silicon Valley Bank's recent collapse triggered concerns about its impact on entrepreneurs of color, prompting venture capitalist Arlan Hamilton to assist founders who feared losing access to crucial funds. The event has renewed calls for addressing existing disparities that disproportionately affect minority-owned businesses in accessing capital and financial stability.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The collapse of Silicon Valley Bank, a key lender for startups, has disproportionately affected entrepreneurs of color, highlighting existing disparities in access to capital and resources within the tech industry. This situation has reignited conversations about the need for more inclusive financial ecosystems and targeted support programs to ensure equitable opportunities for minority-owned businesses.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:40:51.498610+00:00",
-        "updatedAt": "2025-05-01T06:40:51.498610+00:00",
         "articles": [
             {
                 "title": "Silicon Valley Bank collapse renews calls to address disparities impacting entrepreneurs of color ",
@@ -1507,22 +1645,25 @@
                 "alignment": "center",
                 "event_id": "event_50_20250501064051"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** The collapse of Silicon Valley Bank (SVB) has amplified existing concerns about unequal access to capital and resources for entrepreneurs of color. Stakeholders are now urging policymakers and financial institutions to address these disparities and promote more equitable opportunities within the entrepreneurial ecosystem.\n\n**[Reasoning]:** This summary presents the event as a catalyst for renewed discussion about existing disparities, avoiding strong accusatory language or assigning specific blame. The emphasis on \"addressing disparities\" and promoting \"equitable opportunities\" suggests a centrist view that seeks pragmatic solutions without advocating for radical systemic changes.",
+        "createdAt": "2025-05-01T06:40:51.498610+00:00",
+        "eventHeadline": "SVB Collapse: Equity Concerns Rise",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Silicon Valley Bank's recent collapse triggered concerns about its impact on entrepreneurs of color, prompting venture capitalist Arlan Hamilton to assist founders who feared losing access to crucial funds. The event has renewed calls for addressing existing disparities that disproportionately affect minority-owned businesses in accessing capital and financial stability.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:40:51.498610+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317760f4ff4c4471732eb"
+        },
         "event_id": "event_51_20250501064053",
-        "eventHeadline": "Kuldeep slaps Rinku: Aftermath",
-        "summary": "After a recent IPL match where Rinku Singh aggressively batted against Kuldeep Yadav, a video went viral showing a playful interaction between the two, including Kuldeep playfully slapping Rinku. Despite the on-field competition, the video highlighted the players' friendship and positive sportsmanship following KKR's victory over the Delhi Capitals.",
-        "location": "Unknown",
-        "leftSummary": "The headline trivializes a possible instance of workplace conflict between teammates, potentially downplaying the power dynamics at play. Instead of focusing on the human element, the media focuses on a physical action which detracts from possible team tensions.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 1,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:40:53.597392+00:00",
-        "updatedAt": "2025-05-01T06:40:53.597392+00:00",
         "articles": [
             {
                 "title": "Watch: What happened after Kuldeep slapped Rinku Singh",
@@ -1536,22 +1677,25 @@
                 "alignment": "left",
                 "event_id": "event_51_20250501064053"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:40:53.597392+00:00",
+        "eventHeadline": "Kuldeep slaps Rinku: Aftermath",
+        "lCount": 1,
+        "leftSummary": "Given the provided headline, it's difficult to create a summary with a clear left-leaning perspective, as it describes an interpersonal interaction and lacks political context. However, I can highlight potential areas for left-leaning interpretation:\n\n[Summary]: The headline describes an incident where Kuldeep allegedly slapped Rinku Singh. Without further information, it is impossible to determine the nature of this incident or whether it was related to broader societal issues, such as power dynamics or workplace harassment, which are often concerns highlighted from a left-leaning perspective.\n\n[Reasoning]: A left-leaning perspective would look beyond the isolated incident and consider potential underlying issues of power dynamics between individuals. The emphasis on an alleged \"slap\" also raises concerns about violence and potential abuse, areas often highlighted by left-leaning advocacy groups.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "After a recent IPL match where Rinku Singh aggressively batted against Kuldeep Yadav, a video went viral showing a playful interaction between the two, including Kuldeep playfully slapping Rinku. Despite the on-field competition, the video highlighted the players' friendship and positive sportsmanship following KKR's victory over the Delhi Capitals.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:40:53.597392+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317a20f4ff4c4471732ed"
+        },
         "event_id": "event_52_20250501064138",
-        "eventHeadline": "Shillong-Silchar Highway Project Approved",
-        "summary": "The Indian Cabinet has approved a highway project connecting Shillong and Silchar, with an estimated cost of \u20b922,864 crore. The project is expected to boost regional economic growth by improving connectivity between key cities in the Northeast.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The Cabinet has approved a substantial infrastructure project to construct a highway connecting Shillong and Silchar. This \u20b922,864 crore investment aims to improve connectivity and facilitate economic development in the region.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:41:38.436141+00:00",
-        "updatedAt": "2025-05-01T06:41:38.436141+00:00",
         "articles": [
             {
                 "title": "Cabinet approves Shillong-Silchar highway project at an estimated cost of \u20b922,864 crore",
@@ -1565,22 +1709,25 @@
                 "alignment": "center",
                 "event_id": "event_52_20250501064138"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: The Cabinet has approved a significant infrastructure project, the Shillong-Silchar highway, with a substantial investment of \u20b922,864 crore. This project aims to improve connectivity and transportation in the region, potentially boosting economic activity and facilitating smoother travel between the two cities.\n\n[Reasoning]: The summary focuses on the practical aspects of the project (improved connectivity, economic benefits, smoother travel) without expressing strong approval or disapproval, which is characteristic of a center-leaning perspective. The language is neutral and emphasizes the tangible outcomes.",
+        "createdAt": "2025-05-01T06:41:38.436141+00:00",
+        "eventHeadline": "Shillong-Silchar Highway Project Approved",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The Indian Cabinet has approved a highway project connecting Shillong and Silchar, with an estimated cost of \u20b922,864 crore. The project is expected to boost regional economic growth by improving connectivity between key cities in the Northeast.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:41:38.436141+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317a70f4ff4c4471732ef"
+        },
         "event_id": "event_53_20250501064142",
-        "eventHeadline": "India-West: Culture Clash Sparks Debate",
-        "summary": "An Australian woman's video comparing cultural differences between India and the West, particularly regarding domestic help and work-life balance, has ignited a widespread discussion. The video's observations have elicited mixed reactions, with some viewers agreeing and others disagreeing with her perspectives on lifestyle and chores.",
-        "location": "Unknown",
-        "leftSummary": "An Australian woman's observations about Indian culture have ignited a debate, highlighting the potential for Westerners to misunderstand and misrepresent cultural nuances when viewing them through a Western-centric lens. This incident underscores the need for greater cross-cultural understanding and sensitivity, particularly when discussing issues of poverty, tradition, and social norms in countries with different historical and societal contexts.",
-        "centerSummary": "",
-        "rightSummary": "",
-        "lCount": 1,
-        "cCount": 0,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:41:42.585777+00:00",
-        "updatedAt": "2025-05-01T06:41:42.585777+00:00",
         "articles": [
             {
                 "title": "Australian woman sparks massive debate on cultural differences between India and the West. Find out why",
@@ -1594,22 +1741,25 @@
                 "alignment": "left",
                 "event_id": "event_53_20250501064142"
             }
-        ]
+        ],
+        "cCount": 0,
+        "centerSummary": "",
+        "createdAt": "2025-05-01T06:41:42.585777+00:00",
+        "eventHeadline": "India-West: Culture Clash Sparks Debate",
+        "lCount": 1,
+        "leftSummary": "[Summary]: An Australian woman's social media posts highlighting perceived cultural differences in India have ignited a debate, with many criticizing her for potentially perpetuating Western-centric views and a lack of understanding regarding the complexities of Indian culture. This incident underscores the need for greater cultural sensitivity and awareness of the potential harm caused by superficial comparisons that reinforce colonial power dynamics.\n\n[Reasoning]: The summary is left-leaning because it uses phrases like \"Western-centric views,\" \"complexities of Indian culture,\" and \"colonial power dynamics,\" which are common themes in left-wing critiques of cultural imperialism and post-colonialism. The emphasis on potential harm and the need for cultural sensitivity also aligns with left-leaning values of social justice and equality.",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "An Australian woman's video comparing cultural differences between India and the West, particularly regarding domestic help and work-life balance, has ignited a widespread discussion. The video's observations have elicited mixed reactions, with some viewers agreeing and others disagreeing with her perspectives on lifestyle and chores.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:41:42.585777+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317a90f4ff4c4471732f1"
+        },
         "event_id": "event_54_20250501064145",
-        "eventHeadline": "Incense: Child Labor-Free Future",
-        "summary": "A study indicates the incense industry is making progress towards eliminating child labor, although the rate of progress varies across different regions. The study suggests a positive overall trend in reducing child labor within the incense industry.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The incense industry in India is making progress toward eliminating child labor through concerted efforts and initiatives. While challenges remain, the industry's commitment to ethical sourcing and labor practices signals a positive shift towards a more responsible and sustainable future.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:41:45.255400+00:00",
-        "updatedAt": "2025-05-01T06:41:45.255400+00:00",
         "articles": [
             {
                 "title": "Smell Of Change: Incense Industry On Path To A Child Labour-Free Future",
@@ -1623,22 +1773,25 @@
                 "alignment": "center",
                 "event_id": "event_54_20250501064145"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** The incense industry is making progress towards eliminating child labor within its production processes. This positive development suggests a commitment to ethical sourcing and improved working conditions for laborers in the sector.\n\n**[Reasoning]:** The summary presents the news in a straightforward, factual manner without expressing strong opinions or taking sides. The language is neutral (\"making progress,\" \"positive development,\" \"commitment to ethical sourcing\"), and the emphasis is on the industry's efforts to improve conditions, reflecting a moderate viewpoint.",
+        "createdAt": "2025-05-01T06:41:45.255400+00:00",
+        "eventHeadline": "Incense: Child Labor-Free Future",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "A study indicates the incense industry is making progress towards eliminating child labor, although the rate of progress varies across different regions. The study suggests a positive overall trend in reducing child labor within the incense industry.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:41:45.255400+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317ad0f4ff4c4471732f3"
+        },
         "event_id": "event_55_20250501064148",
-        "eventHeadline": "Sugarcane Price Increased Slightly",
-        "summary": "The central government has increased the Fair and Remunerative Price (FRP) of sugarcane to \u20b9355 per quintal for the 2025-26 season, a 4.41% increase. This price is linked to a 10.25% sugar recovery rate, with corresponding premiums and reductions applied based on variations in recovery percentage.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The government has increased the price of sugarcane by 4.41% to \u20b9355 per quintal for the 2025-26 season, a move likely aimed at supporting farmers while potentially increasing costs for sugar mills. This price hike represents an effort to balance agricultural interests with broader economic considerations.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:41:48.961418+00:00",
-        "updatedAt": "2025-05-01T06:41:48.961418+00:00",
         "articles": [
             {
                 "title": "Centre hikes sugarcane price by 4.41% to \u20b9355 per quintal for 2025-26",
@@ -1652,22 +1805,25 @@
                 "alignment": "center",
                 "event_id": "event_55_20250501064148"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: The central government has moderately increased the price of sugarcane by 4.41% to \u20b9355 per quintal for the 2025-26 season. This adjustment aims to balance the interests of farmers with broader economic considerations.\n\n[Reasoning]: The summary is center-leaning because it presents the price hike as a moderate adjustment, suggesting a balanced approach. The phrase \"balance the interests of farmers with broader economic considerations\" implies a pragmatic and centrist viewpoint that considers the needs of multiple stakeholders.",
+        "createdAt": "2025-05-01T06:41:48.961418+00:00",
+        "eventHeadline": "Sugarcane Price Increased Slightly",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The central government has increased the Fair and Remunerative Price (FRP) of sugarcane to \u20b9355 per quintal for the 2025-26 season, a 4.41% increase. This price is linked to a 10.25% sugar recovery rate, with corresponding premiums and reductions applied based on variations in recovery percentage.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:41:48.961418+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317af0f4ff4c4471732f5"
+        },
         "event_id": "event_56_20250501064151",
-        "eventHeadline": "India: Flag Desecration, Attack Reported",
-        "summary": "A 15-year-old student in Aligarh, Uttar Pradesh was allegedly forced to urinate on a Pakistani flag, according to a police complaint filed by his family. The incident occurred while the student was returning home.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "A 15-year-old in India was allegedly coerced into urinating on a Pakistani flag, sparking a police investigation. Separately, a terror attack occurred in Pahalgam, highlighting ongoing security concerns in the region.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:41:51.320327+00:00",
-        "updatedAt": "2025-05-01T06:41:51.320327+00:00",
         "articles": [
             {
                 "title": "Schoolboy, 15, In UP's Aligarh Forced To Urinate On Pakistani Flag: Cops; Pahalgam Terror Attack",
@@ -1681,22 +1837,25 @@
                 "alignment": "center",
                 "event_id": "event_56_20250501064151"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** In Aligarh, Uttar Pradesh, a 15-year-old schoolboy was allegedly coerced into urinating on a Pakistani flag, prompting a police investigation. Separately, a terror attack occurred in Pahalgam, raising concerns about regional security.\n\n**[Reasoning]:** The summary presents both events neutrally, focusing on the factual aspects reported in the headlines. It avoids sensationalizing the story or assigning blame without further information, and acknowledges both the individual incident and broader security concerns which is a balanced approach typical of center-leaning perspectives.",
+        "createdAt": "2025-05-01T06:41:51.320327+00:00",
+        "eventHeadline": "India: Flag Desecration, Attack Reported",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "A 15-year-old student in Aligarh, Uttar Pradesh was allegedly forced to urinate on a Pakistani flag, according to a police complaint filed by his family. The incident occurred while the student was returning home.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:41:51.320327+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317b10f4ff4c4471732f7"
+        },
         "event_id": "event_57_20250501064153",
-        "eventHeadline": "Manipur MLAs Seek Government.",
-        "summary": "Twenty-one Manipur MLAs have appealed to Home Minister Amit Shah to establish a \"popular government\" in the state. The request comes as Manipur is currently governed under President's rule, indicating a period of direct central government administration.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Following months of unrest, 21 Manipur MLAs are appealing to the central government to facilitate the formation of a \"popular government\" in the state. The appeal suggests a desire for a more stable and representative leadership to address the ongoing challenges in Manipur.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:41:53.424219+00:00",
-        "updatedAt": "2025-05-01T06:41:53.424219+00:00",
         "articles": [
             {
                 "title": "21 Manipur MLAs Write To Amit Shah, Ask To Form \"Popular Government\"",
@@ -1710,22 +1869,25 @@
                 "alignment": "center",
                 "event_id": "event_57_20250501064153"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: 21 Manipur MLAs have appealed to Home Minister Amit Shah, requesting the formation of a \"popular government,\" suggesting a desire for a more stable and representative leadership structure in the state. This move indicates ongoing political efforts to address the state's governance and stability challenges.\n\n[Reasoning]: This summary is center-leaning because it neutrally reports the action of the MLAs and frames it as a desire for \"stable and representative leadership,\" which avoids assigning blame or taking a strong position on the underlying issues. The phrase \"ongoing political efforts\" further suggests a pragmatic approach, focusing on the process rather than taking sides.",
+        "createdAt": "2025-05-01T06:41:53.424219+00:00",
+        "eventHeadline": "Manipur MLAs Seek Government.",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Twenty-one Manipur MLAs have appealed to Home Minister Amit Shah to establish a \"popular government\" in the state. The request comes as Manipur is currently governed under President's rule, indicating a period of direct central government administration.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:41:53.424219+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317b40f4ff4c4471732f9"
+        },
         "event_id": "event_58_20250501064155",
-        "eventHeadline": "Hubballi: Rape, Death, Encounter",
-        "summary": "The National Human Rights Commission (NHRC) has issued notices to the Karnataka government and Director General of Police regarding the alleged rape and murder of a minor in Hubballi, as well as the subsequent death of the accused in a police encounter. The NHRC is investigating potential human rights violations related to both the victim and the accused.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The National Human Rights Commission has taken notice of the alleged rape and murder of a minor in Hubballi, Karnataka, as well as the subsequent death of the accused in a police encounter. The NHRC is investigating both incidents to ensure due process was followed and human rights were protected in the handling of the case.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:41:55.692122+00:00",
-        "updatedAt": "2025-05-01T06:41:55.692122+00:00",
         "articles": [
             {
                 "title": "NHRC notices to Karnataka government, DGP over Hubballi minor\u2019s \u2018rape, killing\u2019, death of accused in \u2018police encounter\u2019",
@@ -1739,22 +1901,25 @@
                 "alignment": "center",
                 "event_id": "event_58_20250501064155"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: The National Human Rights Commission (NHRC) has taken notice of the alleged rape and murder of a minor in Hubballi, Karnataka, as well as the subsequent death of the accused in a police encounter. The NHRC is investigating both the initial crime and the circumstances surrounding the accused's death, prompting scrutiny of the Karnataka government and Director General of Police.\n\n[Reasoning]: This summary is considered center-leaning because it presents the events as a matter requiring investigation and scrutiny without explicitly condemning either the government/police or the alleged perpetrator. It neutrally acknowledges both the victim's tragedy and the questions surrounding the encounter, reflecting a balanced approach.",
+        "createdAt": "2025-05-01T06:41:55.692122+00:00",
+        "eventHeadline": "Hubballi: Rape, Death, Encounter",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The National Human Rights Commission (NHRC) has issued notices to the Karnataka government and Director General of Police regarding the alleged rape and murder of a minor in Hubballi, as well as the subsequent death of the accused in a police encounter. The NHRC is investigating potential human rights violations related to both the victim and the accused.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:41:55.692122+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317e00f4ff4c4471732fb"
+        },
         "event_id": "event_59_20250501064240",
-        "eventHeadline": "Corporate Capex: Sharp Decline Foreseen",
-        "summary": "A recent government survey projects a 25% decrease in capital expenditure (capex) by the private corporate sector in fiscal year 2026. The survey did not provide further details to explain the anticipated drop.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "A recent government survey projects a significant decrease in private corporate sector capital expenditure for fiscal year 2026. This potential slowdown raises concerns about future economic growth and investment, prompting calls for policies to incentivize private sector investment.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:42:40.512402+00:00",
-        "updatedAt": "2025-05-01T06:42:40.512402+00:00",
         "articles": [
             {
                 "title": "Private corporate sector capex expected to drop 25% in FY26, states government survey",
@@ -1768,22 +1933,25 @@
                 "alignment": "center",
                 "event_id": "event_59_20250501064240"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** A government survey indicates that private corporate sector capital expenditure (capex) is projected to decline by 25% in fiscal year 2026. This potential decrease warrants attention, as private investment is a key driver of economic growth, and such a significant drop could have broader economic consequences.\n\n**[Reasoning]:** The summary adopts a neutral tone by stating the survey's finding without alarmist language or assigning blame. It acknowledges the potential economic impact (positive or negative) by highlighting the importance of private investment, reflecting a centrist interest in stable economic growth and responsible fiscal management.",
+        "createdAt": "2025-05-01T06:42:40.512402+00:00",
+        "eventHeadline": "Corporate Capex: Sharp Decline Foreseen",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "A recent government survey projects a 25% decrease in capital expenditure (capex) by the private corporate sector in fiscal year 2026. The survey did not provide further details to explain the anticipated drop.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:42:40.512402+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317e50f4ff4c4471732fd"
+        },
         "event_id": "event_60_20250501064245",
-        "eventHeadline": "**Livestream sparks labor outrage.**",
-        "summary": "A company is facing backlash for live-streaming employees working over the weekend under the guise of transparency. While some employees see benefits, others have expressed concerns about the pressure to conform and the potential consequences of dissenting in a monitored environment.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "A company faced criticism after live-streaming employees working during weekend hours, sparking accusations of promoting an unhealthy work-life balance. The incident has ignited a debate about corporate culture and employee expectations in the modern workplace.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:42:45.499207+00:00",
-        "updatedAt": "2025-05-01T06:42:45.499207+00:00",
         "articles": [
             {
                 "title": "Company faces backlash after live-streaming employees working over the weekend, \u2018We are corporate slaves\u2019",
@@ -1797,22 +1965,25 @@
                 "alignment": "center",
                 "event_id": "event_60_20250501064245"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: A company is experiencing negative reactions after live-streaming its employees working during weekend hours. The incident has sparked debate and concern regarding work-life balance and employee well-being, as evidenced by employee statements.\n\n[Reasoning]: This summary is center-leaning because it presents the situation neutrally, stating the event and its consequences without taking a definitive stance for or against the company. It acknowledges employee concerns, but does not amplify or exaggerate them, which is reflected in the measured tone of the headlines themselves.",
+        "createdAt": "2025-05-01T06:42:45.499207+00:00",
+        "eventHeadline": "**Livestream sparks labor outrage.**",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "A company is facing backlash for live-streaming employees working over the weekend under the guise of transparency. While some employees see benefits, others have expressed concerns about the pressure to conform and the potential consequences of dissenting in a monitored environment.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:42:45.499207+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317e80f4ff4c4471732ff"
+        },
         "event_id": "event_61_20250501064248",
-        "eventHeadline": "SEBI: Smarter, Not More.",
-        "summary": "Securities and Exchange Board of India (SEBI) Chairman Tuhin Kanta Pandey acknowledged instances of over-regulation within the organization. However, he advocated for improved and more intelligent oversight mechanisms to ensure effective market regulation.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "SEBI Chairman Tuhin Kanta Pandey acknowledged instances of over-regulation by the agency, signaling a potential shift towards more efficient and targeted oversight. This suggests a move towards smarter regulation rather than blanket rules, aiming to balance investor protection with market innovation.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:42:48.504514+00:00",
-        "updatedAt": "2025-05-01T06:42:48.504514+00:00",
         "articles": [
             {
                 "title": "SEBI over-regulating in parts, admits Chairman Tuhin Kanta Pandey; bats for smarter oversight",
@@ -1826,22 +1997,25 @@
                 "alignment": "center",
                 "event_id": "event_61_20250501064248"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: SEBI Chairman Tuhin Kanta Pandey acknowledged that the regulatory body may be over-regulating in certain areas. He advocated for a shift towards more intelligent and efficient oversight mechanisms rather than solely relying on extensive rules.\n\n[Reasoning]: This summary presents a balanced view by acknowledging SEBI's admission of over-regulation while also highlighting the Chairman's positive focus on \"smarter oversight,\" avoiding strong criticism or defenses typically seen in left or right-leaning perspectives. The framing acknowledges potential issues while also suggesting a positive path forward.",
+        "createdAt": "2025-05-01T06:42:48.504514+00:00",
+        "eventHeadline": "SEBI: Smarter, Not More.",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Securities and Exchange Board of India (SEBI) Chairman Tuhin Kanta Pandey acknowledged instances of over-regulation within the organization. However, he advocated for improved and more intelligent oversight mechanisms to ensure effective market regulation.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:42:48.504514+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317eb0f4ff4c447173301"
+        },
         "event_id": "event_62_20250501064251",
-        "eventHeadline": "Bangladesh Sedition Case: Bail Granted",
-        "summary": "A Bangladesh court granted bail to Chinmoy Krishna Das, a former Iskcon leader and minority rights advocate, who was arrested and charged with sedition. The charges relate to an incident where a saffron flag was raised above the Bangladeshi flag during a rally he organized in Chattogram, sparking public outcry.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "A Bangladesh court granted bail to Chinmoy Das in a sedition case, the details of which remain unspecified in the provided headlines. The case and subsequent bail suggest ongoing legal proceedings concerning potential challenges to the state.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:42:51.090791+00:00",
-        "updatedAt": "2025-05-01T06:42:51.090791+00:00",
         "articles": [
             {
                 "title": "Bangladesh court gives bail to Chinmoy Das in sedition case",
@@ -1855,22 +2029,25 @@
                 "alignment": "center",
                 "event_id": "event_62_20250501064251"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: A Bangladesh court granted bail to Chinmoy Das in a sedition case. The details of the sedition case and the reasons for granting bail remain unspecified in the headline.\n\n[Reasoning]: The summary is center-leaning because it presents the news event in a neutral and factual manner without expressing any opinion or bias. It simply states what happened - bail was granted - without providing any context that would indicate a particular political stance, such as supporting or criticizing the government or the individual involved.",
+        "createdAt": "2025-05-01T06:42:51.090791+00:00",
+        "eventHeadline": "Bangladesh Sedition Case: Bail Granted",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "A Bangladesh court granted bail to Chinmoy Krishna Das, a former Iskcon leader and minority rights advocate, who was arrested and charged with sedition. The charges relate to an incident where a saffron flag was raised above the Bangladeshi flag during a rally he organized in Chattogram, sparking public outcry.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:42:51.090791+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317ed0f4ff4c447173303"
+        },
         "event_id": "event_63_20250501064253",
-        "eventHeadline": "EU: No, Trump: Yes.",
-        "summary": "The European Union's highest court ruled against Malta's \"golden passport\" program, deeming it a violation of EU citizenship rules. This decision contrasts with efforts by then-President Donald Trump to attract wealthy investors to the United States.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The EU is moving to prohibit \"golden passport\" schemes that grant citizenship to investors, while the US under Trump is reportedly opening avenues for wealthy individuals seeking residency or citizenship, marking a divergence in policy approaches toward investment-based immigration. This reflects differing priorities regarding national security concerns versus attracting foreign capital.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:42:53.452232+00:00",
-        "updatedAt": "2025-05-01T06:42:53.452232+00:00",
         "articles": [
             {
                 "title": "EU Bans Sale of \u2018Golden Passports\u2019 as Trump Opens Doors",
@@ -1884,22 +2061,25 @@
                 "alignment": "center",
                 "event_id": "event_63_20250501064253"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: The European Union is restricting \"golden passport\" schemes, which allow individuals to gain citizenship through investment, while the United States, under the Trump administration, appears to be easing access for wealthy immigrants. This reflects differing approaches to immigration and investment policies between the EU and the US.\n\n[Reasoning]: The summary presents both actions as policy decisions without overtly praising or condemning either, simply stating what is happening in both regions. The language is neutral and focuses on the factual aspects of the news, avoids loaded terms, and acknowledges the possibility of both sides having logical reasons for their decisions.",
+        "createdAt": "2025-05-01T06:42:53.452232+00:00",
+        "eventHeadline": "EU: No, Trump: Yes.",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The European Union's highest court ruled against Malta's \"golden passport\" program, deeming it a violation of EU citizenship rules. This decision contrasts with efforts by then-President Donald Trump to attract wealthy investors to the United States.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:42:53.452232+00:00"
     },
     {
+        "_id": {
+            "$oid": "681317ef0f4ff4c447173305"
+        },
         "event_id": "event_64_20250501064255",
-        "eventHeadline": "Monk Bailed in Sedition Case",
-        "summary": "Bangladeshi Hindu monk Chinmoy Krishna Das has been granted bail by the High Court in a sedition case against him. Further details about the charges and reasons for the bail were not provided in the summary.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Hindu monk Chinmoy Krishna Das was granted bail in Bangladesh after being arrested and charged with sedition. The charges stemmed from controversial remarks he allegedly made that were perceived as inciting unrest or disaffection against the government.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:42:55.395764+00:00",
-        "updatedAt": "2025-05-01T06:42:55.395764+00:00",
         "articles": [
             {
                 "title": "Hindu Monk Chinmoy Krishna Das Gets Bail In Bangladesh In Sedition Case",
@@ -1913,22 +2093,25 @@
                 "alignment": "center",
                 "event_id": "event_64_20250501064255"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** Hindu monk Chinmoy Krishna Das in Bangladesh has been granted bail after being arrested on sedition charges. The specific allegations and details of the case remain unclear from the headline, but the court found sufficient grounds to release him on bail pending further investigation.\n\n**[Reasoning]:** The summary focuses on the basic facts of the event: the arrest, the charges, and the granting of bail. It avoids taking a stance on the validity of the sedition charges or the monk's guilt/innocence. It uses neutral language and refrains from sensationalizing the situation, reflecting a balanced and objective approach.",
+        "createdAt": "2025-05-01T06:42:55.395764+00:00",
+        "eventHeadline": "Monk Bailed in Sedition Case",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Bangladeshi Hindu monk Chinmoy Krishna Das has been granted bail by the High Court in a sedition case against him. Further details about the charges and reasons for the bail were not provided in the summary.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:42:55.395764+00:00"
     },
     {
+        "_id": {
+            "$oid": "6813181d0f4ff4c447173307"
+        },
         "event_id": "event_65_20250501064340",
-        "eventHeadline": "Manipur MLAs Seek Government",
-        "summary": "Twenty-one Members of the Legislative Assembly (MLAs) in Manipur, which has a 60-seat assembly, have written to Prime Minister Modi requesting the formation of a \"popular government.\" This action signals a desire among these MLAs for a new government to be established in the state.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Twenty-one Manipur MLAs have appealed to Prime Minister Modi to facilitate the formation of a \"popular government\" in the state, suggesting a desire for a more stable and representative leadership structure. The request signals an effort to address the ongoing challenges and restore normalcy through a government with broader support.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:43:40.639932+00:00",
-        "updatedAt": "2025-05-01T06:43:40.639932+00:00",
         "articles": [
             {
                 "title": "21 Manipur MLAs Write To PM Modi, Ask To Form \"Popular Government\"",
@@ -1942,22 +2125,25 @@
                 "alignment": "center",
                 "event_id": "event_65_20250501064340"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: Twenty-one Manipur Members of the Legislative Assembly (MLAs) have appealed to Prime Minister Modi to facilitate the formation of a \"popular government\" in the state. This request suggests a desire for a more stable and representative leadership structure in Manipur, potentially aimed at addressing the ongoing challenges in the region.\n\n[Reasoning]: The summary focuses on the request for a \"popular government\" which is a term that emphasizes democratic principles and public support, appealing to a center-leaning audience that values stability and representation. It refrains from taking a strong stance or assigning blame, simply reporting the MLAs' request and highlighting the potential benefits of a more stable government.",
+        "createdAt": "2025-05-01T06:43:40.639932+00:00",
+        "eventHeadline": "Manipur MLAs Seek Government",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Twenty-one Members of the Legislative Assembly (MLAs) in Manipur, which has a 60-seat assembly, have written to Prime Minister Modi requesting the formation of a \"popular government.\" This action signals a desire among these MLAs for a new government to be established in the state.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:43:40.639932+00:00"
     },
     {
+        "_id": {
+            "$oid": "681318200f4ff4c447173309"
+        },
         "event_id": "event_66_20250501064344",
-        "eventHeadline": "RBI: De Facto Rate Cut",
-        "summary": "Analysts suggest that the Reserve Bank of India's (RBI) increased government debt purchases will effectively lower borrowing costs in the market. This action, while not an official rate cut, is predicted to have a similar impact on the economy by increasing liquidity.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "Analysts suggest the Reserve Bank of India's increased debt purchasing could effectively lower interest rates, stimulating economic activity. However, this approach carries potential risks of inflation and needs careful management to ensure long-term financial stability.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:43:44.543497+00:00",
-        "updatedAt": "2025-05-01T06:43:44.543497+00:00",
         "articles": [
             {
                 "title": "RBI's debt buying binge to act as de facto rate cut, analysts say",
@@ -1971,22 +2157,25 @@
                 "alignment": "center",
                 "event_id": "event_66_20250501064344"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** Analysts suggest the Reserve Bank of India's (RBI) increased debt purchasing will effectively lower interest rates, even without a formal rate cut. This action, while not explicitly stated as such, is expected to have a similar impact on the economy by injecting liquidity and potentially lowering borrowing costs.\n\n**[Reasoning]:** This summary is center-leaning because it presents the action (RBI's debt buying) neutrally as an economic tool, focusing on the predicted effects (\"de facto rate cut\") without framing it as inherently positive or negative. The language is factual and avoids any loaded terms or ideological justifications, simply stating the analysts' interpretation of the event.",
+        "createdAt": "2025-05-01T06:43:44.543497+00:00",
+        "eventHeadline": "RBI: De Facto Rate Cut",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Analysts suggest that the Reserve Bank of India's (RBI) increased government debt purchases will effectively lower borrowing costs in the market. This action, while not an official rate cut, is predicted to have a similar impact on the economy by increasing liquidity.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:43:44.543497+00:00"
     },
     {
+        "_id": {
+            "$oid": "681318230f4ff4c44717330b"
+        },
         "event_id": "event_67_20250501064347",
-        "eventHeadline": "National Census: Caste Included",
-        "summary": "Union Minister Ashwini Vaishnaw announced that the upcoming national census will include caste enumeration. This decision comes as a criticism of opposition parties conducting separate caste surveys, with the Minister emphasizing the importance of transparency and integration of caste data within the official census framework.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The Indian government intends to include a caste census as part of the upcoming National Census, a move that could provide valuable data for policymaking and addressing social inequalities. While proponents argue this will help target resources and uplift marginalized communities, concerns remain about potential social divisions and the accuracy of the data collected.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:43:47.443856+00:00",
-        "updatedAt": "2025-05-01T06:43:47.443856+00:00",
         "articles": [
             {
                 "title": "\u2018Caste census to be part of National Census\u2019: Union Minister Ashiwini Vaishnaw",
@@ -2000,22 +2189,25 @@
                 "alignment": "center",
                 "event_id": "event_67_20250501064347"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** The Union Minister Ashiwini Vaishnaw announced that a caste census will be incorporated into the upcoming National Census. This decision signals a potential shift in government policy towards collecting data on caste demographics, which could inform future policy decisions related to social equity and resource allocation.\n\n**[Reasoning]:** The summary is center-leaning because it neutrally presents the announcement without explicitly endorsing or criticizing the decision. The language focuses on the potential for informing policy decisions, rather than highlighting potential political ramifications or social divisions, which might be emphasized by left- or right-leaning perspectives.",
+        "createdAt": "2025-05-01T06:43:47.443856+00:00",
+        "eventHeadline": "National Census: Caste Included",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "Union Minister Ashwini Vaishnaw announced that the upcoming national census will include caste enumeration. This decision comes as a criticism of opposition parties conducting separate caste surveys, with the Minister emphasizing the importance of transparency and integration of caste data within the official census framework.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:43:47.443856+00:00"
     },
     {
+        "_id": {
+            "$oid": "681318270f4ff4c44717330d"
+        },
         "event_id": "event_68_20250501064350",
-        "eventHeadline": "Caste Census Sparks Political Debate",
-        "summary": "The Union Cabinet has approved the inclusion of a caste enumeration in the next national census. Union Minister Ashwini Vaishnaw announced the decision while criticizing the Congress party's past stance and questioning the motives behind state-level caste surveys.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The government has announced that a caste survey will be included in the upcoming national census. While proponents argue this will improve policy-making and resource allocation, critics like Minister Vaishnaw are questioning the motives and potential divisive effects, particularly calling out the Congress party's historical stance.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:43:50.887431+00:00",
-        "updatedAt": "2025-05-01T06:43:50.887431+00:00",
         "articles": [
             {
                 "title": "Govt announces caste survey will be part of next census; Vaishnaw slams Cong",
@@ -2029,22 +2221,25 @@
                 "alignment": "center",
                 "event_id": "event_68_20250501064350"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "**[Summary]:** The government has announced that a caste survey will be incorporated into the upcoming national census. While the government defends this move as necessary for better policy-making, the opposition Congress party is criticizing the decision.\n\n**[Reasoning]:** This is center-leaning because it presents the government's action neutrally, stating the factual announcement without immediately characterizing it as positive or negative. It also acknowledges that there are differing opinions by including the criticism from the Congress party, suggesting a balanced view rather than outright support or opposition.",
+        "createdAt": "2025-05-01T06:43:50.887431+00:00",
+        "eventHeadline": "Caste Census Sparks Political Debate",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The Union Cabinet has approved the inclusion of a caste enumeration in the next national census. Union Minister Ashwini Vaishnaw announced the decision while criticizing the Congress party's past stance and questioning the motives behind state-level caste surveys.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:43:50.887431+00:00"
     },
     {
+        "_id": {
+            "$oid": "681318290f4ff4c44717330f"
+        },
         "event_id": "event_69_20250501064353",
-        "eventHeadline": "Courts Adjust Arbitration Outcomes",
-        "summary": "The Supreme Court has ruled that courts possess the authority to modify arbitral awards. This modification power is limited to simple corrections like calculation errors, interest adjustments, or other minor changes, and does not extend to overturning the entire award.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "The Supreme Court has ruled that courts possess the authority to modify arbitration awards, clarifying the scope of judicial review in such cases. This decision aims to strike a balance between respecting the efficiency of arbitration and ensuring fairness and legal compliance in the outcomes.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:43:53.474253+00:00",
-        "updatedAt": "2025-05-01T06:43:53.474253+00:00",
         "articles": [
             {
                 "title": "Courts can modify arbitral awards, rules the Supreme Court",
@@ -2058,22 +2253,25 @@
                 "alignment": "center",
                 "event_id": "event_69_20250501064353"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: The Supreme Court has ruled that courts possess the authority to modify arbitration awards. This decision clarifies the scope of judicial review over arbitration outcomes, potentially impacting businesses and individuals who rely on this dispute resolution method.\n[Reasoning]: The summary is center-leaning because it presents the information neutrally without framing it as a win for any particular side or suggesting broader implications beyond the clarification of existing legal procedures. The language is factual and avoids any strong opinions or interpretations.",
+        "createdAt": "2025-05-01T06:43:53.474253+00:00",
+        "eventHeadline": "Courts Adjust Arbitration Outcomes",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "The Supreme Court has ruled that courts possess the authority to modify arbitral awards. This modification power is limited to simple corrections like calculation errors, interest adjustments, or other minor changes, and does not extend to overturning the entire award.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:43:53.474253+00:00"
     },
     {
+        "_id": {
+            "$oid": "6813182b0f4ff4c447173311"
+        },
         "event_id": "event_70_20250501064355",
-        "eventHeadline": "Coldplay Concert Boosted Economy",
-        "summary": "A recent EY-Parthenon report found that Coldplay's concert in Ahmedabad, India, generated an economic impact of \u20b9641 crore. The study suggests the event significantly boosted the local economy through various avenues.",
-        "location": "Unknown",
-        "leftSummary": "",
-        "centerSummary": "A Coldplay concert in Ahmedabad generated significant economic activity, boosting the local economy by an estimated \u20b9641 crore. Such large-scale events can provide substantial, albeit temporary, financial benefits to host cities.",
-        "rightSummary": "",
-        "lCount": 0,
-        "cCount": 1,
-        "rCount": 0,
-        "totalArticles": 1,
-        "createdAt": "2025-05-01T06:43:55.487272+00:00",
-        "updatedAt": "2025-05-01T06:43:55.487272+00:00",
         "articles": [
             {
                 "title": "Coldplay\u2019s Ahmedabad concert brought \u20b9641 crore economic impact, finds EY-Parthenon",
@@ -2087,6 +2285,18 @@
                 "alignment": "center",
                 "event_id": "event_70_20250501064355"
             }
-        ]
+        ],
+        "cCount": 1,
+        "centerSummary": "[Summary]: A recent study by EY-Parthenon found that Coldplay's concert in Ahmedabad, India, generated a significant economic impact of \u20b9641 crore. This suggests that large-scale entertainment events can provide a substantial boost to local economies.\n\n[Reasoning]: The summary focuses on the quantifiable economic benefits of the concert, a common focus for center-leaning perspectives that often prioritize economic growth and pragmatic outcomes. It avoids potentially controversial aspects like environmental impact or social equity, sticking to the financial impact as a positive result.",
+        "createdAt": "2025-05-01T06:43:55.487272+00:00",
+        "eventHeadline": "Coldplay Concert Boosted Economy",
+        "lCount": 0,
+        "leftSummary": "",
+        "location": "Unknown",
+        "rCount": 0,
+        "rightSummary": "",
+        "summary": "A recent EY-Parthenon report found that Coldplay's concert in Ahmedabad, India, generated an economic impact of \u20b9641 crore. The study suggests the event significantly boosted the local economy through various avenues.",
+        "totalArticles": 1,
+        "updatedAt": "2025-05-01T06:43:55.487272+00:00"
     }
 ]
