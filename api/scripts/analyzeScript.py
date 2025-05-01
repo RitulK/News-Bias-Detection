@@ -12,7 +12,9 @@ def analyzeArticle(url):
     result = {
         "headline": headline,
         "img": img,
-        "text": text
+        "text": text,
+        "alignment": "left",
+        "Summary" : "summary",
     }
     print(result)
     return result
