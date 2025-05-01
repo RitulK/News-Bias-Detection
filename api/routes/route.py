@@ -1,3 +1,4 @@
+from re import A
 from fastapi import APIRouter
 from models.events import Event
 from schemas.eventSchemas import indEvent, listEventHeadlines, indEventHeadline
@@ -5,6 +6,7 @@ from models.articles import Article
 from schemas.articleSchema import indArticle, listArticles
 from config.database import mainEvents,mainArticles
 from bson import ObjectId
+from scripts.analyzeScript import analyzeArticle
 
 router = APIRouter()
 
@@ -57,3 +59,10 @@ async def get_all_articles():
 @router.post("/article")
 async def post_article(article: Article):
     mainArticles.insert_one(indArticle(dict(article)))
+
+@router.get("/analyze/")
+async def analyze(url: str):
+    print(url)
+    # Call the analyzeArticle function and return the result
+    result = analyzeArticle(url)
+    return {"result": result}
