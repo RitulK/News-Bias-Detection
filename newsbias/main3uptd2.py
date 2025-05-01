@@ -11,6 +11,7 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 import hashlib
 import os
+from bson import json_util
 
 # Configure Gemini API
 GOOGLE_API_KEY = "AIzaSyDZr_wSUvi2kHGqDppUrpxzrnCTRgm7kxA"
@@ -22,7 +23,7 @@ MONGO_URI = "mongodb+srv://ritulk:ritul6789@news-analysis-c1.vonz85k.mongodb.net
 DATABASE_NAME = "news_analysis"
 EVENTS_COLLECTION = "events"
 ARTICLES_COLLECTION = "articles"
-SOURCES_COLLECTION = "news_source"
+SOURCES_COLLECTION = "news_source1"
 
 # RateLimiter class for Gemini API
 class RateLimiter:
@@ -98,38 +99,80 @@ class EventClusterer:
         source_country = article.get("source_country", "Unknown")
         alignment = article.get("alignment", "center")
         
+        # Map lowercase alignment to title case for MongoDB
+        alignment_map = {
+            "left": "Left",
+            "center": "Center", 
+            "right": "Right"
+        }
+        
+        # Use title case version of alignment for MongoDB
+        mongodb_alignment = alignment_map.get(alignment, "Center")
+        
         # Generate consistent source_id
         source_id = hashlib.md5(source_name.encode()).hexdigest()
         
-        update_query = {
-            "$inc": {
-                "total_articles": 1,
-                f"alignment_counts.{alignment}": 1
-            },
-            "$setOnInsert": {
-                "source_name": source_name,
-                "source_country": source_country,
-                "source_id": source_id,
-                "first_seen": datetime.now(timezone.utc).isoformat(),
-                "alignment_counts": {
-                    "left": 0,
-                    "center": 0,
-                    "right": 0
-                }
-            },
-            "$set": {
-                "last_updated": datetime.now(timezone.utc).isoformat()
-            }
-        }
-        
         try:
-            self.sources_col.update_one(
-                {"source_name": source_name},
-                update_query,
-                upsert=True
-            )
+            # Check if source exists and if it needs migration
+            existing_source = self.sources_col.find_one({"source_name": source_name})
+            
+            if existing_source:
+                alignment_counts = existing_source.get("alignment_counts", {})
+                
+                # Check if we need to migrate from lowercase to title case
+                needs_migration = any(key in alignment_counts for key in ["left", "center", "right"])
+                
+                if needs_migration:
+                    # Create new alignment counts with title case keys
+                    new_counts = {
+                        "Left": alignment_counts.get("left", 0) + (1 if alignment == "left" else 0),
+                        "Center": alignment_counts.get("center", 0) + (1 if alignment == "center" else 0),
+                        "Right": alignment_counts.get("right", 0) + (1 if alignment == "right" else 0)
+                    }
+                    
+                    # Update the document with migrated counts
+                    self.sources_col.update_one(
+                        {"source_name": source_name},
+                        {
+                            "$set": {
+                                "alignment_counts": new_counts,
+                                "total_articles": existing_source.get("total_articles", 0) + 1,
+                                "last_updated": datetime.now(timezone.utc).isoformat()
+                            }
+                        }
+                    )
+                else:
+                    # Use title case key for the increment
+                    self.sources_col.update_one(
+                        {"source_name": source_name},
+                        {
+                            "$inc": {
+                                "total_articles": 1,
+                                f"alignment_counts.{mongodb_alignment}": 1
+                            },
+                            "$set": {
+                                "last_updated": datetime.now(timezone.utc).isoformat()
+                            }
+                        }
+                    )
+            else:
+                # Create a new source document with title case keys
+                self.sources_col.insert_one({
+                    "source_name": source_name,
+                    "source_country": source_country,
+                    "source_id": source_id,
+                    "total_articles": 1,
+                    "alignment_counts": {
+                        "Left": 1 if alignment == "left" else 0,
+                        "Center": 1 if alignment == "center" else 0,
+                        "Right": 1 if alignment == "right" else 0
+                    },
+                    "first_seen": datetime.now(timezone.utc).isoformat(),
+                    "last_updated": datetime.now(timezone.utc).isoformat()
+                })
+                    
         except Exception as e:
-            print(f"Error updating source stats for {source_name}: {e}")
+            print(f"Error updating source stats for {source_name}: {str(e)}")
     
     def _load_events_from_mongo(self):
         """Load events from MongoDB"""
@@ -186,56 +229,117 @@ class EventClusterer:
                 current_articles = json.load(f)
             print(f"Loaded {len(current_articles)} articles from file")
         except FileNotFoundError:
-            print("Error: filtered_news_articles1.json not found in:", os.getcwd())
+            print("No articles file found")
             return {"message": "No articles file found"}
-        except json.JSONDecodeError as e:
-            print("Error decoding JSON:", e)
+        except json.JSONDecodeError:
+            print("Error parsing articles file")
             return {"message": "Invalid articles file format"}
+
+        # Get all existing articles from MongoDB
+        existing_articles = list(self.articles_col.find({}))
+        existing_article_urls = {a['link'] for a in existing_articles}
         
-        existing_article_urls = set()
-        try:
-            existing_article_urls = set(self.articles_col.distinct("link"))
-            print(f"Found {len(existing_article_urls)} existing article URLs in MongoDB")
-        except Exception as e:
-            print(f"Error getting existing article URLs from MongoDB: {e}")
-            for event in self.events:
-                for article in event.get("articles", []):
-                    if "link" in article:
-                        existing_article_urls.add(article["link"])
+        # Process new articles if any exist
+        new_articles = [a for a in current_articles if a.get('link') not in existing_article_urls]
         
-        new_articles = [a for a in current_articles if a.get("link") not in existing_article_urls]
+        if new_articles:
+            print(f"Processing {len(new_articles)} new articles")
+            
+            texts = [self._get_article_text(a) for a in new_articles]
+            embeddings = self.similarity_model.encode(texts)
+            
+            assigned_count = 0
+            unassigned_articles = []
+            
+            for i, (article, embedding) in enumerate(zip(new_articles, embeddings)):
+                event_id = self._find_matching_event(embedding)
+                if event_id is not None:
+                    self._assign_article_to_event(article, event_id)
+                    assigned_count += 1
+                else:
+                    unassigned_articles.append((article, embedding))
+            
+            new_event_count = 0
+            if unassigned_articles:
+                new_event_count = self._cluster_unassigned_articles(unassigned_articles)
+            
+            self._generate_political_summaries()
+            self._save_results()
+            
+            return {
+                "total_articles": len(new_articles),
+                "assigned_to_existing": assigned_count,
+                "created_new_events": new_event_count
+            }
+        else:
+            print("No new articles to process - updating source information for existing articles")
+            
+            # Run migration first to ensure all sources have title case keys
+            self._migrate_alignment_counts()
+            
+            # First ensure all sources exist with proper structure
+            self._initialize_sources_collection()
+            
+            # Then update source stats
+            sources_updated = 0
+            for article in existing_articles:
+                try:
+                    if all(key in article for key in ['source', 'alignment']):
+                        self._update_source_stats(article)
+                        sources_updated += 1
+                except Exception as e:
+                    print(f"Error updating source stats for article {article.get('link')}: {e}")
+            
+            print(f"Updated source information for {sources_updated} existing articles")
+            self._generate_political_summaries()
+            self._save_results()
+            
+            return {
+                "message": "No new articles processed, but updated source information",
+                "sources_updated": sources_updated,
+                "existing_articles": len(existing_articles)
+            }
+
+    def _initialize_sources_collection(self):
+        """Ensure all sources have proper document structure"""
+        # Get all unique sources from articles
+        pipeline = [
+            {"$group": {
+                "_id": "$source",
+                "count": {"$sum": 1},
+                "source_country": {"$first": "$source_country"}
+            }}
+        ]
         
-        if not new_articles:
-            return {"message": "No new articles to process"}
+        sources = list(self.articles_col.aggregate(pipeline))
         
-        print(f"Processing {len(new_articles)} new articles")
-        
-        texts = [self._get_article_text(a) for a in new_articles]
-        embeddings = self.similarity_model.encode(texts)
-        
-        assigned_count = 0
-        unassigned_articles = []
-        
-        for i, (article, embedding) in enumerate(zip(new_articles, embeddings)):
-            event_id = self._find_matching_event(embedding)
-            if event_id is not None:
-                self._assign_article_to_event(article, event_id)
-                assigned_count += 1
-            else:
-                unassigned_articles.append((article, embedding))
-        
-        new_event_count = 0
-        if unassigned_articles:
-            new_event_count = self._cluster_unassigned_articles(unassigned_articles)
-        
-        self._generate_political_summaries()
-        self._save_results()
-        
-        return {
-            "total_articles": len(new_articles),
-            "assigned_to_existing": assigned_count,
-            "created_new_events": new_event_count
-        }
+        for source in sources:
+            source_name = source['_id']
+            if not source_name:
+                continue
+                
+            source_id = hashlib.md5(source_name.encode()).hexdigest()
+            
+            # Initialize source document if it doesn't exist
+            self.sources_col.update_one(
+                {"source_name": source_name},
+                {
+                    "$setOnInsert": {
+                        "source_name": source_name,
+                        "source_country": source.get("source_country", "Unknown"),
+                        "source_id": source_id,
+                        "total_articles": 0,
+                        "alignment_counts": {
+                            "Left": 0,
+                            "Center": 0,
+                            "Right": 0
+                        },
+                        "first_seen": datetime.now(timezone.utc).isoformat(),
+                        "last_updated": datetime.now(timezone.utc).isoformat()
+                    }
+                },
+                upsert=True
+            )
     
     def _find_matching_event(self, embedding: np.ndarray) -> str:
         """Find existing event that matches the article embedding"""
@@ -399,7 +503,7 @@ class EventClusterer:
             self._save_event_to_mongo(event)
     
     def _generate_political_summary(self, articles: list, perspective: str) -> str:
-        """Generate summary from a specific political perspective"""
+        """Generate summary from a specific political perspective including explanation of its leaning"""
         cache_key = f"summary:{perspective}:{hash(tuple(a['title'] for a in articles[:3]))}"
         
         if cache_key in self.gemini_cache:
@@ -413,7 +517,15 @@ class EventClusterer:
             
             {chr(10).join(titles)}
             
-            Respond with just the summary text, nothing else."""
+            Your response should have two parts:
+        1. First, provide a 2-3 sentence summary of the event from the {perspective} perspective.
+        2. Then, explain in 1-2 sentences why this summary is considered {perspective}-leaning, 
+           pointing to specific language, framing, or emphasis in the headlines that reflects 
+           this political perspective.
+        
+        Format your response like this:
+        [Summary]: [summary text here]
+        [Reasoning]: [reasoning text here]"""
             
             model = genai.GenerativeModel(EVENT_MODEL)
             response = model.generate_content(prompt)
@@ -518,7 +630,9 @@ class EventClusterer:
             clean_events.append(clean_event)
         
         with open("news_events.json", "w") as f:
-            json.dump(clean_events, f, indent=4)
+            # Use json_util.dumps to properly handle MongoDB types like ObjectId
+            f.write(json_util.dumps(clean_events, indent=4))
+        
         print(f"Saved {len(clean_events)} events to news_events.json")
     
     def _determine_bias(self, article: dict) -> str:
@@ -546,6 +660,50 @@ class EventClusterer:
         words = ' '.join(titles).lower().split()
         common_words = [word for word in words if len(word) > 4 and word not in ['about', 'after', 'their']]
         return ' '.join(sorted(set(common_words), key=lambda x: -words.count(x))[:3]).title() if common_words else "Current Event"
+
+    def _migrate_alignment_counts(self):
+        """One-time migration to convert all lowercase alignment keys to title case"""
+        print("Starting migration of alignment counts from lowercase to title case...")
+        
+        # Find all sources that need migration
+        sources_to_migrate = list(self.sources_col.find({
+            "$or": [
+                {"alignment_counts.left": {"$exists": True}},
+                {"alignment_counts.center": {"$exists": True}},
+                {"alignment_counts.right": {"$exists": True}}
+            ]
+        }))
+        
+        migrated_count = 0
+        for source in sources_to_migrate:
+            try:
+                counts = source.get("alignment_counts", {})
+                
+                # Create new counts with title case keys
+                new_counts = {
+                    "Left": counts.get("left", 0),
+                    "Center": counts.get("center", 0),
+                    "Right": counts.get("right", 0)
+                }
+                
+                # Update the source with the new counts and remove old keys
+                self.sources_col.update_one(
+                    {"_id": source["_id"]},
+                    {
+                        "$set": {"alignment_counts": new_counts},
+                        "$unset": {
+                            "alignment_counts.left": "",
+                            "alignment_counts.center": "",
+                            "alignment_counts.right": ""
+                        }
+                    }
+                )
+                migrated_count += 1
+                
+            except Exception as e:
+                print(f"Error migrating source {source.get('source_name')}: {e}")
+        
+        print(f"Migration completed. {migrated_count}/{len(sources_to_migrate)} sources migrated.")
 
     def __del__(self):
         """Clean up MongoDB connection when object is destroyed"""

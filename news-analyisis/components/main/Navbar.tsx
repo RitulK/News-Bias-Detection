@@ -19,17 +19,33 @@ export default function Navbar() {
       
       {/* Desktop Navigation (Centered) */}
       <div className="hidden md:flex gap-8 absolute left-1/2 transform -translate-x-1/2">
-        {['Home', 'Sources', 'Methodology'].map((item) => (
-          <a 
-            key={item} 
-            href="#" 
-            className="text-blue-600 hover:text-white transition-all duration-200 text-sm font-medium relative px-3 py-1.5 rounded-md group"
-          >
-            <span className="relative z-10">{item}</span>
-            <span className="absolute inset-0 bg-white/10 rounded-md opacity-0 group-hover:opacity-100 transition-all duration-300"></span>
-            <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-400 to-indigo-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
-          </a>
-        ))}
+        <a 
+          key="Home" 
+          href="/"
+          className="text-blue-600 hover:text-white transition-all duration-200 text-sm font-medium relative px-3 py-1.5 rounded-md group"
+        >
+          <span className="relative z-10">Home</span>
+          <span className="absolute inset-0 bg-white/10 rounded-md opacity-0 group-hover:opacity-100 transition-all duration-300"></span>
+          <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-400 to-indigo-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+        </a>
+        <a 
+          key="Sources" 
+          href="/sources"
+          className="text-blue-600 hover:text-white transition-all duration-200 text-sm font-medium relative px-3 py-1.5 rounded-md group"
+        >
+          <span className="relative z-10">Sources</span>
+          <span className="absolute inset-0 bg-white/10 rounded-md opacity-0 group-hover:opacity-100 transition-all duration-300"></span>
+          <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-400 to-indigo-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+        </a>
+        <a 
+          key="Methodology" 
+          href="/methodology"
+          className="text-blue-600 hover:text-white transition-all duration-200 text-sm font-medium relative px-3 py-1.5 rounded-md group"
+        >
+          <span className="relative z-10">Methodology</span>
+          <span className="absolute inset-0 bg-white/10 rounded-md opacity-0 group-hover:opacity-100 transition-all duration-300"></span>
+          <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-400 to-indigo-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
+        </a>
       </div>
       
       {/* Sleek Search Bar */}
