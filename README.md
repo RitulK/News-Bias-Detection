@@ -109,6 +109,15 @@ This will launch the platform where:
 2. See grouped articles
 3. View political bias predictions
 
+Application:
+![image](https://github.com/user-attachments/assets/efac72c0-7677-48a1-8eb3-f6defff8916e)
+![image](https://github.com/user-attachments/assets/fda89b6b-4be9-4749-afd9-49af885c7cfe)
+![image](https://github.com/user-attachments/assets/65dd091f-872c-4d83-b395-0edeaeceb1e4)
+![image](https://github.com/user-attachments/assets/61bed3b6-27e7-4da1-8877-4ada10e66c5c)
+![image](https://github.com/user-attachments/assets/3db5ce76-28cd-4d52-9526-ce765e8b58d0)
+![image](https://github.com/user-attachments/assets/a36c9e29-a77c-4505-ae5b-3f80f5a3537e)
+
+
 📚 References :
 1. STS Benchmark Dataset
 2. The Media Bias Taxonomy
