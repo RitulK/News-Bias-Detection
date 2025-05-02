@@ -34,6 +34,14 @@ The project also includes a fully functional **web platform** built with **Next.
 | Deployment   | Can be containerized using Docker |
 
 ---
+Application:
+![image](https://github.com/user-attachments/assets/2df81d8e-77f3-4ad9-acc0-9a86ce30e87c)
+![image](https://github.com/user-attachments/assets/59750ec4-3bcc-4b44-8f91-10a4bbb6937e)
+![image](https://github.com/user-attachments/assets/eeb2249e-0403-47fd-8cc3-e153be3e7d80)
+![image](https://github.com/user-attachments/assets/fe5d77bd-d7ad-4341-b72c-d87419021c97)
+![image](https://github.com/user-attachments/assets/778ca41e-cf5f-41fa-90bd-d919a5ff2af8)
+![image](https://github.com/user-attachments/assets/63b0ab20-9138-44cf-9142-c16d45c95ad6)
+
 
 ## 🛠️ Project Setup
 
@@ -109,13 +117,6 @@ This will launch the platform where:
 2. See grouped articles
 3. View political bias predictions
 
-Application:
-![image](https://github.com/user-attachments/assets/efac72c0-7677-48a1-8eb3-f6defff8916e)
-![image](https://github.com/user-attachments/assets/fda89b6b-4be9-4749-afd9-49af885c7cfe)
-![image](https://github.com/user-attachments/assets/65dd091f-872c-4d83-b395-0edeaeceb1e4)
-![image](https://github.com/user-attachments/assets/61bed3b6-27e7-4da1-8877-4ada10e66c5c)
-![image](https://github.com/user-attachments/assets/3db5ce76-28cd-4d52-9526-ce765e8b58d0)
-![image](https://github.com/user-attachments/assets/a36c9e29-a77c-4505-ae5b-3f80f5a3537e)
 
 
 📚 References :
