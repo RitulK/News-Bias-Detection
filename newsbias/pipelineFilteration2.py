@@ -14,7 +14,7 @@ from datetime import datetime, timedelta
 from collections import defaultdict
 
 # Initialize Gemini client
-GOOGLE_API_KEY = "AIzaSyDZr_wSUvi2kHGqDppUrpxzrnCTRgm7kxA"  # Replace with your actual API key
+GOOGLE_API_KEY = "GOOGLE_API_KEY"  # Replace with your actual API key
 genai.configure(api_key=GOOGLE_API_KEY)
 MODEL_ID = "gemini-2.0-flash"  # Using the latest model for better accuracy
 
