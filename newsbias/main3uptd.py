@@ -11,12 +11,12 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 # Configure Gemini API
-GOOGLE_API_KEY = "AIzaSyDZr_wSUvi2kHGqDppUrpxzrnCTRgm7kxA"
+GOOGLE_API_KEY = "Google_API_Key"
 genai.configure(api_key=GOOGLE_API_KEY)
 EVENT_MODEL = "gemini-2.0-flash"
 
 # MongoDB Configuration
-MONGO_URI = "mongodb+srv://ritulk:ritul6789@news-analysis-c1.vonz85k.mongodb.net/?retryWrites=true&w=majority&appName=news-analysis-c1"
+MONGO_URI = "mongo_uri"
 DATABASE_NAME = "news_analysis"
 EVENTS_COLLECTION = "events"
 ARTICLES_COLLECTION = "articles"
